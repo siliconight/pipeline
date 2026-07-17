@@ -1,0 +1,24 @@
+{
+ "key": "mission_id",
+ "records": [
+  {
+   "classification": "standard",
+   "configuration_ids": [
+    "BLD_BANK_BRANCH_A01",
+    "BLD_POLICE_STATION_A01"
+   ],
+   "connectivity_validation": "pass",
+   "godot_import": "pending_engine_leg",
+   "lot_spec_path": "lot/specs/ref_pvp/ref_pvp_site.json",
+   "mission_id": "MSN_STATION_RAID_01",
+   "multiplayer_smoke_test": "pending_engine_leg",
+   "name": "Station Raid (reference)",
+   "objective_building": "station",
+   "site_validation": "pass",
+   "status": "candidate",
+   "tactical_validation": "pass"
+  }
+ ],
+ "registry": "missions",
+ "schema_version": 1
+}

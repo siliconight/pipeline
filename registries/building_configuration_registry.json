@@ -1,0 +1,63 @@
+{
+ "key": "configuration_id",
+ "records": [
+  {
+   "building_family": "BANK_BRANCH",
+   "configuration_id": "BLD_BANK_BRANCH_A01",
+   "gameplay_profile": "heist",
+   "missions": [
+    "MSN_STATION_RAID_01"
+   ],
+   "seed": 1999,
+   "spec_path": "deli_counter/specs/bank_job.json",
+   "status": "candidate",
+   "tactical_tags": {
+    "attacker_entrance_count": "2",
+    "objective_room_location": "vault_ground"
+   },
+   "visual_tags": {
+    "architectural_theme": "delco_financial",
+    "wear_state": "maintained"
+   },
+   "zoo_theme": "delco"
+  },
+  {
+   "building_family": "POLICE_STATION",
+   "combat_audit_path": "deli_counter/build/pvp_station_ref.combat_audit.json",
+   "configuration_id": "BLD_POLICE_STATION_A01",
+   "coordinate_validation": "pass",
+   "gameplay_path": "deli_counter/build/pvp_station_ref.gameplay.json",
+   "gameplay_profile": "pvp_heist",
+   "glb_path": "deli_counter/build/pvp_station_ref.glb",
+   "manifest_path": "deli_counter/build/pvp_station_ref.manifest.json",
+   "missions": [
+    "MSN_STATION_RAID_01"
+   ],
+   "navigation_report_path": "deli_counter/build/pvp_station_ref.navigation.json",
+   "navigation_validation": "pass",
+   "open_issues": [],
+   "review_sheet_path": "deli_counter/build/review/pvp_station_ref/sheet.png",
+   "roundtrip_report_path": "deli_counter/build/pvp_station_ref.roundtrip.json",
+   "runtime_walktest": "pending_engine_leg",
+   "seed": 1999,
+   "slots_path": "deli_counter/build/pvp_station_ref.slots.json",
+   "spec_path": "deli_counter/specs/pvp_station_ref.json",
+   "status": "candidate",
+   "structural_validation": "pass",
+   "tactical_tags": {
+    "attacker_entrance_count": "4",
+    "objective_room_location": "story1_armory",
+    "rooftop_access": "ladder_hatch"
+   },
+   "validation_report_path": "deli_counter/build/pvp_station_ref.validation.json",
+   "visual_quality_score": null,
+   "visual_tags": {
+    "architectural_theme": "delco_civic",
+    "wear_state": "maintained"
+   },
+   "zoo_theme": "delco"
+  }
+ ],
+ "registry": "buildings",
+ "schema_version": 1
+}
