@@ -8,12 +8,18 @@
     "BLD_POLICE_STATION_A01"
    ],
    "connectivity_validation": "pass",
-   "godot_import": "pending_engine_leg",
+   "evidence": {
+    "godot_import": "deli_counter/build/pvp_station_ref.godot_import.json (Godot 4.7 stable, user hardware)",
+    "multiplayer_smoke_test": "_runs/ref_pvp_proj/ref_pvp_site.mp_smoke.json (round 24 PASS, 4 players, all moved >=5m)",
+    "runtime_walktest": "_runs/ref_pvp_proj/ref_pvp_site_navqa.walktest.json (round 22 PASS)"
+   },
+   "godot_import": "pass",
    "lot_spec_path": "lot/specs/ref_pvp/ref_pvp_site.json",
    "mission_id": "MSN_STATION_RAID_01",
-   "multiplayer_smoke_test": "pending_engine_leg",
+   "multiplayer_smoke_test": "pass",
    "name": "Station Raid (reference)",
    "objective_building": "station",
+   "runtime_walktest": "pass",
    "site_validation": "pass",
    "status": "candidate",
    "tactical_validation": "pass"

@@ -26,6 +26,9 @@
    "combat_audit_path": "deli_counter/build/pvp_station_ref.combat_audit.json",
    "configuration_id": "BLD_POLICE_STATION_A01",
    "coordinate_validation": "pass",
+   "evidence": {
+    "runtime_walktest": "_runs/ref_pvp_proj/ref_pvp_site_navqa.walktest.json (round 22, 4 players 8/8 targets + 12 bots ok)"
+   },
    "gameplay_path": "deli_counter/build/pvp_station_ref.gameplay.json",
    "gameplay_profile": "pvp_heist",
    "glb_path": "deli_counter/build/pvp_station_ref.glb",
@@ -38,7 +41,7 @@
    "open_issues": [],
    "review_sheet_path": "deli_counter/build/review/pvp_station_ref/sheet.png",
    "roundtrip_report_path": "deli_counter/build/pvp_station_ref.roundtrip.json",
-   "runtime_walktest": "pending_engine_leg",
+   "runtime_walktest": "pass",
    "seed": 1999,
    "slots_path": "deli_counter/build/pvp_station_ref.slots.json",
    "spec_path": "deli_counter/specs/pvp_station_ref.json",
