@@ -2,6 +2,55 @@
  "key": "mission_id",
  "records": [
   {
+   "classification": "hero",
+   "configuration_ids": [
+    "BLD_BANK_BRANCH_A04",
+    "BLD_DELI_A01",
+    "BLD_WAREHOUSE_A02",
+    "BLD_PARKING_GARAGE_A02"
+   ],
+   "connectivity_validation": "pass",
+   "evidence": {
+    "multiplayer_smoke_test": "mp_smoke PASS (4 players, all moved >=5m)",
+    "runtime_walktest": "central_vault ALL 18 path proofs PASS (navmesh proven walkable end-to-end); QA physical-walker bot sticks at 1 interior pinch on the 18-stop spine after 4 targets -- accepted on authoritative proofs + mp_smoke per product decision; harness-locomotion backlog"
+   },
+   "godot_import": "pass",
+   "lot_spec_path": "lot/specs/central_vault/central_vault_site.json",
+   "mission_id": "MSN_CENTRAL_VAULT_01",
+   "multiplayer_smoke_test": "pass",
+   "name": "Central Bank Vault Complex (hero)",
+   "notes": "Phase 1 hero: all four slice families on one site; visual avg >=4.5 checked at approval | hero support-deli uses DELI_A01 (basement objective, site-scale robust); DELI_A02/A03 story1-objective descent voids at site scale -- backlog.",
+   "objective_building": "central_bank",
+   "runtime_walktest": "pass_proofs",
+   "site_validation": "pass",
+   "status": "candidate",
+   "tactical_validation": "pass"
+  },
+  {
+   "classification": "standard",
+   "configuration_ids": [
+    "BLD_DELI_A01",
+    "BLD_WAREHOUSE_A01",
+    "BLD_PARKING_GARAGE_A01"
+   ],
+   "connectivity_validation": "pass",
+   "evidence": {
+    "multiplayer_smoke_test": "mp_smoke PASS (4 players)",
+    "runtime_walktest": "deli_block walktest PASS (15 proofs + physical walkers, sim 133.6s)"
+   },
+   "godot_import": "pass",
+   "lot_spec_path": "lot/specs/deli_block/deli_block_site.json",
+   "mission_id": "MSN_DELI_BLOCK_01",
+   "multiplayer_smoke_test": "pass",
+   "name": "Deli Block (standard)",
+   "notes": "pacing intel: traversal ~2.5 min (range 1.6-3.4) vs 7-15 min mission target; mission length owned by downstream objective mechanics (levels-as-input boundary)",
+   "objective_building": "corner_deli",
+   "runtime_walktest": "pass",
+   "site_validation": "pass",
+   "status": "candidate",
+   "tactical_validation": "pass"
+  },
+  {
    "classification": "standard",
    "configuration_ids": [
     "BLD_BANK_BRANCH_A01",
