@@ -2,6 +2,29 @@
  "key": "mission_id",
  "records": [
   {
+   "classification": "standard",
+   "configuration_ids": [
+    "BLD_APARTMENT_WALKUP_A02",
+    "BLD_BREWERY_A02",
+    "BLD_PAWN_SHOP_A02"
+   ],
+   "connectivity_validation": "pass",
+   "evidence": {
+    "engine_gates": "P3 mission batch: FULL walktest + mp_smoke PASS (6/6 sites, both heroes physical-walked)"
+   },
+   "godot_import": "pass",
+   "lot_spec_path": "lot/specs/brewery_block/brewery_block_site.json",
+   "mission_id": "MSN_BREWERY_BLOCK_01",
+   "multiplayer_smoke_test": "pass",
+   "name": "Brewery Block (standard)",
+   "notes": "slate: Yards Brewery; basement barrel-vault objective.",
+   "objective_building": "brewery",
+   "runtime_walktest": "pass",
+   "site_validation": "pass",
+   "status": "candidate",
+   "tactical_validation": "pass"
+  },
+  {
    "classification": "hero",
    "configuration_ids": [
     "BLD_BANK_BRANCH_A04",
@@ -51,6 +74,98 @@
    "tactical_validation": "pass"
   },
   {
+   "classification": "hero",
+   "configuration_ids": [
+    "BLD_FUNERAL_HOME_A01",
+    "BLD_MANSION_A03",
+    "BLD_COUNTRY_CLUB_A01"
+   ],
+   "connectivity_validation": "pass",
+   "evidence": {
+    "engine_gates": "P3 mission batch: FULL walktest + mp_smoke PASS (6/6 sites, both heroes physical-walked)"
+   },
+   "godot_import": "pass",
+   "lot_spec_path": "lot/specs/mainline_mansion/mainline_mansion_site.json",
+   "mission_id": "MSN_MAINLINE_MANSION_01",
+   "multiplayer_smoke_test": "pass",
+   "name": "Main Line Mansion (hero)",
+   "notes": "slate: Main Line Mansion (medium tier) + Vinny finale chassis rehearsal. Basement panic-room objective.",
+   "objective_building": "mansion",
+   "runtime_walktest": "pass",
+   "site_validation": "pass",
+   "status": "candidate",
+   "tactical_validation": "pass"
+  },
+  {
+   "classification": "standard",
+   "configuration_ids": [
+    "BLD_CONSTRUCTION_SITE_A01",
+    "BLD_MUSEUM_A02",
+    "BLD_COURTHOUSE_A03"
+   ],
+   "connectivity_validation": "pass",
+   "evidence": {
+    "engine_gates": "P3 mission batch: FULL walktest + mp_smoke PASS (6/6 sites, both heroes physical-walked)"
+   },
+   "godot_import": "pass",
+   "lot_spec_path": "lot/specs/museum_row/museum_row_site.json",
+   "mission_id": "MSN_MUSEUM_ROW_01",
+   "multiplayer_smoke_test": "pass",
+   "name": "Museum Row (standard)",
+   "notes": "slate: Museum of Art chassis; Parkway block with tower frame stage.",
+   "objective_building": "museum",
+   "runtime_walktest": "pass",
+   "site_validation": "pass",
+   "status": "candidate",
+   "tactical_validation": "pass"
+  },
+  {
+   "classification": "standard",
+   "configuration_ids": [
+    "BLD_MARINA_A03",
+    "BLD_FREIGHT_TERMINAL_A03",
+    "BLD_DEPOT_A02"
+   ],
+   "connectivity_validation": "pass",
+   "evidence": {
+    "engine_gates": "P3 mission batch: FULL walktest + mp_smoke PASS (6/6 sites, both heroes physical-walked)"
+   },
+   "godot_import": "pass",
+   "lot_spec_path": "lot/specs/port_row/port_row_site.json",
+   "mission_id": "MSN_PORT_ROW_01",
+   "multiplayer_smoke_test": "pass",
+   "name": "Port Row (standard)",
+   "notes": "slate: Delaware River Shipping Port chassis; bonded vault objective.",
+   "objective_building": "freight",
+   "runtime_walktest": "pass",
+   "site_validation": "pass",
+   "status": "candidate",
+   "tactical_validation": "pass"
+  },
+  {
+   "classification": "hero",
+   "configuration_ids": [
+    "BLD_STRIP_RETAIL_A01",
+    "BLD_RAIL_STATION_A02",
+    "BLD_GAS_STATION_A03"
+   ],
+   "connectivity_validation": "pass",
+   "evidence": {
+    "engine_gates": "P3 mission batch: FULL walktest + mp_smoke PASS (6/6 sites, both heroes physical-walked)"
+   },
+   "godot_import": "pass",
+   "lot_spec_path": "lot/specs/septa_station/septa_station_site.json",
+   "mission_id": "MSN_SEPTA_STATION_01",
+   "multiplayer_smoke_test": "pass",
+   "name": "SEPTA Station (hero)",
+   "notes": "slate: SEPTA Station (medium tier). Angelos stages; basement fare vault objective (site-robust).",
+   "objective_building": "station",
+   "runtime_walktest": "pass",
+   "site_validation": "pass",
+   "status": "candidate",
+   "tactical_validation": "pass"
+  },
+  {
    "classification": "standard",
    "configuration_ids": [
     "BLD_BANK_BRANCH_A01",
@@ -68,6 +183,29 @@
    "multiplayer_smoke_test": "pass",
    "name": "Station Raid (reference)",
    "objective_building": "station",
+   "runtime_walktest": "pass",
+   "site_validation": "pass",
+   "status": "candidate",
+   "tactical_validation": "pass"
+  },
+  {
+   "classification": "standard",
+   "configuration_ids": [
+    "BLD_AUTO_SHOP_A02",
+    "BLD_SELF_STORAGE_A01",
+    "BLD_STRIP_CLUB_A01"
+   ],
+   "connectivity_validation": "pass",
+   "evidence": {
+    "engine_gates": "P3 mission batch: FULL walktest + mp_smoke PASS (6/6 sites, both heroes physical-walked)"
+   },
+   "godot_import": "pass",
+   "lot_spec_path": "lot/specs/storage_row/storage_row_site.json",
+   "mission_id": "MSN_STORAGE_ROW_01",
+   "multiplayer_smoke_test": "pass",
+   "name": "Storage Row (standard)",
+   "notes": "roadhouse strip; ground vault-unit objective.",
+   "objective_building": "storage",
    "runtime_walktest": "pass",
    "site_validation": "pass",
    "status": "candidate",
