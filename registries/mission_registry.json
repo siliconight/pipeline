@@ -2,6 +2,54 @@
  "key": "mission_id",
  "records": [
   {
+   "classification": "hero",
+   "configuration_ids": [
+    "BLD_WAREHOUSE_A02",
+    "BLD_STADIUM_A01",
+    "BLD_STADIUM_A04"
+   ],
+   "connectivity_validation": "pass",
+   "evidence": {
+    "offline": "P4: lot.py assembly + site/connectivity/tactical gates clean (sandbox)",
+    "engine_gates": "P4 mission batch: 8/8 walktest (proofs + physical walkers) + 8/8 mp_smoke (4 players), first-pass clean (Godot 4.7)"
+   },
+   "godot_import": "pass",
+   "lot_spec_path": "lot/specs/ballpark_block/ballpark_block_site.json",
+   "mission_id": "MSN_BALLPARK_BLOCK_01",
+   "multiplayer_smoke_test": "pass",
+   "name": "Citizens Bank Park (hero)",
+   "notes": "P4 LARGE hero: ballpark concourse + count room, premium club extraction (slate: Citizens Bank Park, 40-min tier)",
+   "objective_building": "ballpark_concourse",
+   "runtime_walktest": "pass",
+   "site_validation": "pass",
+   "status": "candidate",
+   "tactical_validation": "pass"
+  },
+  {
+   "classification": "hero",
+   "configuration_ids": [
+    "BLD_CREDIT_UNION_A01",
+    "BLD_BANK_TOWER_A01",
+    "BLD_BANK_TOWER_A03"
+   ],
+   "connectivity_validation": "pass",
+   "evidence": {
+    "offline": "P4: lot.py assembly + site/connectivity/tactical gates clean (sandbox)",
+    "engine_gates": "P4 mission batch: 8/8 walktest (proofs + physical walkers) + 8/8 mp_smoke (4 players), first-pass clean (Godot 4.7)"
+   },
+   "godot_import": "pass",
+   "lot_spec_path": "lot/specs/bank_tower_block/bank_tower_block_site.json",
+   "mission_id": "MSN_BANK_TOWER_BLOCK_01",
+   "multiplayer_smoke_test": "pass",
+   "name": "Center City Bank Tower (hero)",
+   "notes": "P4 LARGE hero: basement main vault; credit union crew home brings CREDIT_UNION into the portfolio (slate: Center City Bank Tower)",
+   "objective_building": "tower_vault",
+   "runtime_walktest": "pass",
+   "site_validation": "pass",
+   "status": "candidate",
+   "tactical_validation": "pass"
+  },
+  {
    "classification": "standard",
    "configuration_ids": [
     "BLD_APARTMENT_WALKUP_A02",
@@ -74,6 +122,30 @@
    "tactical_validation": "pass"
   },
   {
+   "classification": "standard",
+   "configuration_ids": [
+    "BLD_LANDMARK_HALL_A03",
+    "BLD_LANDMARK_HALL_A01",
+    "BLD_LANDMARK_HALL_A02"
+   ],
+   "connectivity_validation": "pass",
+   "evidence": {
+    "offline": "P4: lot.py assembly + site/connectivity/tactical gates clean (sandbox)",
+    "engine_gates": "P4 mission batch: 8/8 walktest (proofs + physical walkers) + 8/8 mp_smoke (4 players), first-pass clean (Godot 4.7)"
+   },
+   "godot_import": "pass",
+   "lot_spec_path": "lot/specs/independence_mall/independence_mall_site.json",
+   "mission_id": "MSN_INDEPENDENCE_MALL_01",
+   "multiplayer_smoke_test": "pass",
+   "name": "Independence Mall",
+   "notes": "P4 standard: artifact room off the assembly hall, archive wing extraction (slate: Independence Hall / Liberty Bell)",
+   "objective_building": "assembly_hall",
+   "runtime_walktest": "pass",
+   "site_validation": "pass",
+   "status": "candidate",
+   "tactical_validation": "pass"
+  },
+  {
    "classification": "hero",
    "configuration_ids": [
     "BLD_FUNERAL_HOME_A01",
@@ -120,6 +192,30 @@
    "tactical_validation": "pass"
   },
   {
+   "classification": "hero",
+   "configuration_ids": [
+    "BLD_FREIGHT_TERMINAL_A01",
+    "BLD_AIRPORT_TERMINAL_A01",
+    "BLD_AIRPORT_TERMINAL_A02"
+   ],
+   "connectivity_validation": "pass",
+   "evidence": {
+    "offline": "P4: lot.py assembly + site/connectivity/tactical gates clean (sandbox)",
+    "engine_gates": "P4 mission batch: 8/8 walktest (proofs + physical walkers) + 8/8 mp_smoke (4 players), first-pass clean (Godot 4.7)"
+   },
+   "godot_import": "pass",
+   "lot_spec_path": "lot/specs/phl_airport/phl_airport_site.json",
+   "mission_id": "MSN_PHL_AIRPORT_01",
+   "multiplayer_smoke_test": "pass",
+   "name": "PHL Airport (hero)",
+   "notes": "P4 LARGE hero: customs office objective in the check-in hall, baggage-level extraction (slate: PHL Airport, 40-min tier)",
+   "objective_building": "terminal_hall",
+   "runtime_walktest": "pass",
+   "site_validation": "pass",
+   "status": "candidate",
+   "tactical_validation": "pass"
+  },
+  {
    "classification": "standard",
    "configuration_ids": [
     "BLD_MARINA_A03",
@@ -143,6 +239,54 @@
    "tactical_validation": "pass"
   },
   {
+   "classification": "standard",
+   "configuration_ids": [
+    "BLD_CLINIC_A01",
+    "BLD_MARKET_HALL_A01",
+    "BLD_MARKET_HALL_A02"
+   ],
+   "connectivity_validation": "pass",
+   "evidence": {
+    "offline": "P4: lot.py assembly + site/connectivity/tactical gates clean (sandbox)",
+    "engine_gates": "P4 mission batch: 8/8 walktest (proofs + physical walkers) + 8/8 mp_smoke (4 players), first-pass clean (Godot 4.7)"
+   },
+   "godot_import": "pass",
+   "lot_spec_path": "lot/specs/reading_terminal/reading_terminal_site.json",
+   "mission_id": "MSN_READING_TERMINAL_01",
+   "multiplayer_smoke_test": "pass",
+   "name": "Reading Terminal Market",
+   "notes": "P4 standard: deposit cage behind the stalls; street clinic crew home brings CLINIC into the portfolio (slate: Reading Terminal Market)",
+   "objective_building": "market_floor",
+   "runtime_walktest": "pass",
+   "site_validation": "pass",
+   "status": "candidate",
+   "tactical_validation": "pass"
+  },
+  {
+   "classification": "hero",
+   "configuration_ids": [
+    "BLD_PARKING_GARAGE_A02",
+    "BLD_CASINO_A01",
+    "BLD_CASINO_A02"
+   ],
+   "connectivity_validation": "pass",
+   "evidence": {
+    "offline": "P4: lot.py assembly + site/connectivity/tactical gates clean (sandbox)",
+    "engine_gates": "P4 mission batch: 8/8 walktest (proofs + physical walkers) + 8/8 mp_smoke (4 players), first-pass clean (Godot 4.7)"
+   },
+   "godot_import": "pass",
+   "lot_spec_path": "lot/specs/rivers_casino/rivers_casino_site.json",
+   "mission_id": "MSN_RIVERS_CASINO_01",
+   "multiplayer_smoke_test": "pass",
+   "name": "Rivers Casino (hero)",
+   "notes": "P4 LARGE hero: gaming-floor cage objective, count house extraction (slate: Rivers Casino, 40-min tier)",
+   "objective_building": "gaming_floor",
+   "runtime_walktest": "pass",
+   "site_validation": "pass",
+   "status": "candidate",
+   "tactical_validation": "pass"
+  },
+  {
    "classification": "hero",
    "configuration_ids": [
     "BLD_STRIP_RETAIL_A01",
@@ -160,6 +304,30 @@
    "name": "SEPTA Station (hero)",
    "notes": "slate: SEPTA Station (medium tier). Angelos stages; basement fare vault objective (site-robust).",
    "objective_building": "station",
+   "runtime_walktest": "pass",
+   "site_validation": "pass",
+   "status": "candidate",
+   "tactical_validation": "pass"
+  },
+  {
+   "classification": "standard",
+   "configuration_ids": [
+    "BLD_DEPOT_A01",
+    "BLD_TRAIN_YARD_A01",
+    "BLD_TRAIN_YARD_A02"
+   ],
+   "connectivity_validation": "pass",
+   "evidence": {
+    "offline": "P4: lot.py assembly + site/connectivity/tactical gates clean (sandbox)",
+    "engine_gates": "P4 mission batch: 8/8 walktest (proofs + physical walkers) + 8/8 mp_smoke (4 players), first-pass clean (Godot 4.7)"
+   },
+   "godot_import": "pass",
+   "lot_spec_path": "lot/specs/septa_yard/septa_yard_site.json",
+   "mission_id": "MSN_SEPTA_YARD_01",
+   "multiplayer_smoke_test": "pass",
+   "name": "SEPTA Yard",
+   "notes": "P4 standard: dispatch cash office in the shed, under-track extraction (slate: SEPTA Train Heist chassis; rolling stock stays a level_factory design item)",
+   "objective_building": "dispatch_shed",
    "runtime_walktest": "pass",
    "site_validation": "pass",
    "status": "candidate",
@@ -276,6 +444,30 @@
    "name": "Warehouse District (hero)",
    "notes": "Phase 2 hero: industrial anchor (bonded archive, basement objective -- site-robust); slate chassis for Delaware River Shipping Port",
    "objective_building": "bonded_freight",
+   "runtime_walktest": "pass",
+   "site_validation": "pass",
+   "status": "candidate",
+   "tactical_validation": "pass"
+  },
+  {
+   "classification": "standard",
+   "configuration_ids": [
+    "BLD_ARENA_A02",
+    "BLD_ARENA_A01",
+    "BLD_ARENA_A03"
+   ],
+   "connectivity_validation": "pass",
+   "evidence": {
+    "offline": "P4: lot.py assembly + site/connectivity/tactical gates clean (sandbox)",
+    "engine_gates": "P4 mission batch: 8/8 walktest (proofs + physical walkers) + 8/8 mp_smoke (4 players), first-pass clean (Godot 4.7)"
+   },
+   "godot_import": "pass",
+   "lot_spec_path": "lot/specs/xfinity_center/xfinity_center_site.json",
+   "mission_id": "MSN_XFINITY_CENTER_01",
+   "multiplayer_smoke_test": "pass",
+   "name": "Xfinity Center",
+   "notes": "P4 standard: arena vault under the event floor, skybox wing extraction (slate: Xfinity Center)",
+   "objective_building": "event_floor",
    "runtime_walktest": "pass",
    "site_validation": "pass",
    "status": "candidate",
