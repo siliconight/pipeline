@@ -72,6 +72,76 @@
    "site_validation": "pass",
    "status": "candidate",
    "tactical_validation": "pass"
+  },
+  {
+   "classification": "standard",
+   "configuration_ids": [
+    "BLD_GAS_STATION_A01",
+    "BLD_STRIP_RETAIL_A02",
+    "BLD_PHARMACY_A01"
+   ],
+   "connectivity_validation": "pass",
+   "evidence": {
+    "engine_gates": "FULL walktest PASS (proofs + physical walkers) + mp_smoke PASS"
+   },
+   "godot_import": "pass",
+   "lot_spec_path": "lot/specs/strip_mall/strip_mall_site.json",
+   "mission_id": "MSN_STRIP_MALL_01",
+   "multiplayer_smoke_test": "pass",
+   "name": "Strip Mall (Jewelers Row standard)",
+   "notes": "slate: Jewelers Row (small tier); Wawa stages the crew",
+   "objective_building": "jeweler",
+   "runtime_walktest": "pass",
+   "site_validation": "pass",
+   "status": "candidate",
+   "tactical_validation": "pass"
+  },
+  {
+   "classification": "standard",
+   "configuration_ids": [
+    "BLD_AUTO_SHOP_A01",
+    "BLD_APARTMENT_WALKUP_A01",
+    "BLD_PAWN_SHOP_A01"
+   ],
+   "connectivity_validation": "pass",
+   "evidence": {
+    "engine_gates": "FULL walktest PASS (proofs + physical walkers) + mp_smoke PASS"
+   },
+   "godot_import": "pass",
+   "lot_spec_path": "lot/specs/walkup_siege/walkup_siege_site.json",
+   "mission_id": "MSN_WALKUP_SIEGE_01",
+   "multiplayer_smoke_test": "pass",
+   "name": "Walk-up Siege (standard)",
+   "notes": "rowhome basement vault; site-robust basement objective per Phase 1 lesson",
+   "objective_building": "walkup",
+   "runtime_walktest": "pass",
+   "site_validation": "pass",
+   "status": "candidate",
+   "tactical_validation": "pass"
+  },
+  {
+   "classification": "hero",
+   "configuration_ids": [
+    "BLD_SUPERMARKET_A03",
+    "BLD_LARGE_WAREHOUSE_A03",
+    "BLD_DEPOT_A01"
+   ],
+   "connectivity_validation": "pass",
+   "evidence": {
+    "engine_gates": "FULL walktest PASS (proofs + physical walkers) + mp_smoke PASS",
+    "runtime_walktest": "hero FULL PASS: 4 players 14/14 targets ~770 m, 202.4 s spine-scaled sim, 12/12 bots; walker floor-angle now matches agent-contract slope"
+   },
+   "godot_import": "pass",
+   "lot_spec_path": "lot/specs/warehouse_district/warehouse_district_site.json",
+   "mission_id": "MSN_WAREHOUSE_DISTRICT_01",
+   "multiplayer_smoke_test": "pass",
+   "name": "Warehouse District (hero)",
+   "notes": "Phase 2 hero: industrial anchor (bonded archive, basement objective -- site-robust); slate chassis for Delaware River Shipping Port",
+   "objective_building": "bonded_freight",
+   "runtime_walktest": "pass",
+   "site_validation": "pass",
+   "status": "candidate",
+   "tactical_validation": "pass"
   }
  ],
  "registry": "missions",

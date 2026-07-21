@@ -2,6 +2,208 @@
  "key": "configuration_id",
  "records": [
   {
+   "building_family": "APARTMENT_WALKUP",
+   "combat_audit_path": "deli_counter/build/apartment_walkup_a01.combat_audit.json",
+   "configuration_id": "BLD_APARTMENT_WALKUP_A01",
+   "coordinate_validation": "pass",
+   "evidence": {
+    "engine_gates": "Phase 2 batches: nav_gate + godot_import PASS (Godot 4.7, 27/27)"
+   },
+   "gameplay_path": "deli_counter/build/apartment_walkup_a01.gameplay.json",
+   "gameplay_profile": "pvp_heist",
+   "glb_path": "deli_counter/build/apartment_walkup_a01.glb",
+   "manifest_path": "deli_counter/build/apartment_walkup_a01.manifest.json",
+   "missions": [
+    "MSN_WALKUP_SIEGE_01"
+   ],
+   "navigation_report_path": "deli_counter/build/apartment_walkup_a01.navigation.json",
+   "navigation_validation": "pass",
+   "open_issues": [],
+   "roundtrip_report_path": "deli_counter/build/apartment_walkup_a01.roundtrip.json",
+   "runtime_walktest": "pass",
+   "seed": 3501,
+   "slate_missions": [
+    "Main Line Mansion (chassis ancestor)"
+   ],
+   "slots_path": "deli_counter/build/apartment_walkup_a01.slots.json",
+   "spec_path": "deli_counter/specs/apartment_walkup_a01.json",
+   "status": "candidate",
+   "structural_validation": "pass",
+   "tactical_tags": {
+    "attacker_entrance_count": "2",
+    "defender_spawn_location": "basement_approach",
+    "objective_room_location": "basement_vault",
+    "stair_placement": "twin_split"
+   },
+   "validation_report_path": "deli_counter/build/apartment_walkup_a01.validation.json",
+   "visual_quality_score": null,
+   "visual_tags": {
+    "architectural_theme": "delco_rowhome",
+    "material_package": "brick_stoop",
+    "signage_package": "none",
+    "wear_state": "worn"
+   },
+   "zoo_theme": "delco"
+  },
+  {
+   "building_family": "APARTMENT_WALKUP",
+   "combat_audit_path": "deli_counter/build/apartment_walkup_a02.combat_audit.json",
+   "configuration_id": "BLD_APARTMENT_WALKUP_A02",
+   "coordinate_validation": "pass",
+   "evidence": {
+    "engine_gates": "Phase 2 batches: nav_gate + godot_import PASS (Godot 4.7, 27/27)"
+   },
+   "gameplay_path": "deli_counter/build/apartment_walkup_a02.gameplay.json",
+   "gameplay_profile": "pvp_heist",
+   "glb_path": "deli_counter/build/apartment_walkup_a02.glb",
+   "manifest_path": "deli_counter/build/apartment_walkup_a02.manifest.json",
+   "missions": [],
+   "navigation_report_path": "deli_counter/build/apartment_walkup_a02.navigation.json",
+   "navigation_validation": "pass",
+   "open_issues": [],
+   "roundtrip_report_path": "deli_counter/build/apartment_walkup_a02.roundtrip.json",
+   "runtime_walktest": "pass",
+   "seed": 3502,
+   "slots_path": "deli_counter/build/apartment_walkup_a02.slots.json",
+   "spec_path": "deli_counter/specs/apartment_walkup_a02.json",
+   "status": "candidate",
+   "structural_validation": "pass",
+   "tactical_tags": {
+    "attacker_entrance_count": "2",
+    "defender_spawn_location": "front_flat",
+    "objective_room_location": "story1_safe_flat",
+    "stair_placement": "single_interior"
+   },
+   "validation_report_path": "deli_counter/build/apartment_walkup_a02.validation.json",
+   "visual_quality_score": null,
+   "visual_tags": {
+    "architectural_theme": "delco_walkup",
+    "material_package": "brick_cornice",
+    "signage_package": "none",
+    "wear_state": "maintained"
+   },
+   "zoo_theme": "delco"
+  },
+  {
+   "building_family": "APARTMENT_WALKUP",
+   "combat_audit_path": "deli_counter/build/apartment_walkup_a03.combat_audit.json",
+   "configuration_id": "BLD_APARTMENT_WALKUP_A03",
+   "coordinate_validation": "pass",
+   "evidence": {
+    "engine_gates": "Phase 2 batches: nav_gate + godot_import PASS (Godot 4.7, 27/27)"
+   },
+   "gameplay_path": "deli_counter/build/apartment_walkup_a03.gameplay.json",
+   "gameplay_profile": "pvp_heist",
+   "glb_path": "deli_counter/build/apartment_walkup_a03.glb",
+   "manifest_path": "deli_counter/build/apartment_walkup_a03.manifest.json",
+   "missions": [],
+   "navigation_report_path": "deli_counter/build/apartment_walkup_a03.navigation.json",
+   "navigation_validation": "pass",
+   "open_issues": [],
+   "roundtrip_report_path": "deli_counter/build/apartment_walkup_a03.roundtrip.json",
+   "runtime_walktest": "pass",
+   "seed": 3503,
+   "slots_path": "deli_counter/build/apartment_walkup_a03.slots.json",
+   "spec_path": "deli_counter/specs/apartment_walkup_a03.json",
+   "status": "candidate",
+   "structural_validation": "pass",
+   "tactical_tags": {
+    "attacker_entrance_count": "3",
+    "defender_spawn_location": "upper_rear",
+    "objective_room_location": "ground_garage_cage",
+    "service_entrance_placement": "garage_east"
+   },
+   "validation_report_path": "deli_counter/build/apartment_walkup_a03.validation.json",
+   "visual_quality_score": null,
+   "visual_tags": {
+    "architectural_theme": "delco_corner_walkup",
+    "material_package": "stucco_brick_mix",
+    "signage_package": "painted",
+    "wear_state": "renovated"
+   },
+   "zoo_theme": "delco"
+  },
+  {
+   "building_family": "AUTO_SHOP",
+   "combat_audit_path": "deli_counter/build/auto_shop_a01.combat_audit.json",
+   "configuration_id": "BLD_AUTO_SHOP_A01",
+   "coordinate_validation": "pass",
+   "evidence": {
+    "engine_gates": "Phase 2 batches: nav_gate + godot_import PASS (Godot 4.7, 27/27)"
+   },
+   "gameplay_path": "deli_counter/build/auto_shop_a01.gameplay.json",
+   "gameplay_profile": "pvp_heist",
+   "glb_path": "deli_counter/build/auto_shop_a01.glb",
+   "manifest_path": "deli_counter/build/auto_shop_a01.manifest.json",
+   "missions": [
+    "MSN_WALKUP_SIEGE_01"
+   ],
+   "navigation_report_path": "deli_counter/build/auto_shop_a01.navigation.json",
+   "navigation_validation": "pass",
+   "open_issues": [],
+   "roundtrip_report_path": "deli_counter/build/auto_shop_a01.roundtrip.json",
+   "runtime_walktest": "pass",
+   "seed": 3201,
+   "slots_path": "deli_counter/build/auto_shop_a01.slots.json",
+   "spec_path": "deli_counter/specs/auto_shop_a01.json",
+   "status": "candidate",
+   "structural_validation": "pass",
+   "tactical_tags": {
+    "attacker_entrance_count": "4",
+    "defender_spawn_location": "upper_storage",
+    "objective_room_location": "story1_office",
+    "stair_placement": "single_interior"
+   },
+   "validation_report_path": "deli_counter/build/auto_shop_a01.validation.json",
+   "visual_quality_score": null,
+   "visual_tags": {
+    "architectural_theme": "delco_auto_service",
+    "material_package": "cmu_rollgate",
+    "signage_package": "painted",
+    "wear_state": "worn"
+   },
+   "zoo_theme": "delco"
+  },
+  {
+   "building_family": "AUTO_SHOP",
+   "combat_audit_path": "deli_counter/build/auto_shop_a02.combat_audit.json",
+   "configuration_id": "BLD_AUTO_SHOP_A02",
+   "coordinate_validation": "pass",
+   "evidence": {
+    "engine_gates": "Phase 2 batches: nav_gate + godot_import PASS (Godot 4.7, 27/27)"
+   },
+   "gameplay_path": "deli_counter/build/auto_shop_a02.gameplay.json",
+   "gameplay_profile": "pvp_heist",
+   "glb_path": "deli_counter/build/auto_shop_a02.glb",
+   "manifest_path": "deli_counter/build/auto_shop_a02.manifest.json",
+   "missions": [],
+   "navigation_report_path": "deli_counter/build/auto_shop_a02.navigation.json",
+   "navigation_validation": "pass",
+   "open_issues": [],
+   "roundtrip_report_path": "deli_counter/build/auto_shop_a02.roundtrip.json",
+   "runtime_walktest": "pass",
+   "seed": 3202,
+   "slots_path": "deli_counter/build/auto_shop_a02.slots.json",
+   "spec_path": "deli_counter/specs/auto_shop_a02.json",
+   "status": "candidate",
+   "structural_validation": "pass",
+   "tactical_tags": {
+    "attacker_entrance_count": "3",
+    "breach_point_placement": "north_soft",
+    "defender_spawn_location": "upper_office",
+    "objective_room_location": "ground_parts_cage"
+   },
+   "validation_report_path": "deli_counter/build/auto_shop_a02.validation.json",
+   "visual_quality_score": null,
+   "visual_tags": {
+    "architectural_theme": "delco_night_garage",
+    "material_package": "corrugated_front",
+    "signage_package": "neon",
+    "wear_state": "maintained"
+   },
+   "zoo_theme": "industrial_flats"
+  },
+  {
    "building_family": "BANK_BRANCH",
    "configuration_id": "BLD_BANK_BRANCH_A01",
    "gameplay_profile": "heist",
@@ -101,7 +303,7 @@
     "wear_state": "renovated",
     "window_family": "ribbon_glazing"
    },
-   "zoo_theme": "delco"
+   "zoo_theme": "center_city"
   },
   {
    "building_family": "BANK_BRANCH",
@@ -143,6 +345,204 @@
     "material_package": "stone_colonnade",
     "wear_state": "pristine",
     "window_family": "high_sill_slit"
+   },
+   "zoo_theme": "delco"
+  },
+  {
+   "building_family": "CLINIC",
+   "combat_audit_path": "deli_counter/build/clinic_a01.combat_audit.json",
+   "configuration_id": "BLD_CLINIC_A01",
+   "coordinate_validation": "pass",
+   "evidence": {
+    "engine_gates": "Phase 2 batches: nav_gate + godot_import PASS (Godot 4.7, 27/27)"
+   },
+   "gameplay_path": "deli_counter/build/clinic_a01.gameplay.json",
+   "gameplay_profile": "pvp_heist",
+   "glb_path": "deli_counter/build/clinic_a01.glb",
+   "manifest_path": "deli_counter/build/clinic_a01.manifest.json",
+   "missions": [],
+   "navigation_report_path": "deli_counter/build/clinic_a01.navigation.json",
+   "navigation_validation": "pass",
+   "open_issues": [],
+   "roundtrip_report_path": "deli_counter/build/clinic_a01.roundtrip.json",
+   "runtime_walktest": "pass",
+   "seed": 3001,
+   "slots_path": "deli_counter/build/clinic_a01.slots.json",
+   "spec_path": "deli_counter/specs/clinic_a01.json",
+   "status": "candidate",
+   "structural_validation": "pass",
+   "tactical_tags": {
+    "attacker_entrance_count": "3",
+    "chokepoint_placement": "reception_gate",
+    "defender_spawn_location": "exam_wing",
+    "objective_room_location": "ground_dispensary"
+   },
+   "validation_report_path": "deli_counter/build/clinic_a01.validation.json",
+   "visual_quality_score": null,
+   "visual_tags": {
+    "architectural_theme": "delco_clinic",
+    "material_package": "brick_storefront",
+    "signage_package": "backlit",
+    "wear_state": "maintained"
+   },
+   "zoo_theme": "delco"
+  },
+  {
+   "building_family": "CLINIC",
+   "combat_audit_path": "deli_counter/build/clinic_a02.combat_audit.json",
+   "configuration_id": "BLD_CLINIC_A02",
+   "coordinate_validation": "pass",
+   "evidence": {
+    "engine_gates": "Phase 2 batches: nav_gate + godot_import PASS (Godot 4.7, 27/27)"
+   },
+   "gameplay_path": "deli_counter/build/clinic_a02.gameplay.json",
+   "gameplay_profile": "pvp_heist",
+   "glb_path": "deli_counter/build/clinic_a02.glb",
+   "manifest_path": "deli_counter/build/clinic_a02.manifest.json",
+   "missions": [],
+   "navigation_report_path": "deli_counter/build/clinic_a02.navigation.json",
+   "navigation_validation": "pass",
+   "open_issues": [],
+   "roundtrip_report_path": "deli_counter/build/clinic_a02.roundtrip.json",
+   "runtime_walktest": "pass",
+   "seed": 3002,
+   "slots_path": "deli_counter/build/clinic_a02.slots.json",
+   "spec_path": "deli_counter/specs/clinic_a02.json",
+   "status": "candidate",
+   "structural_validation": "pass",
+   "tactical_tags": {
+    "attacker_entrance_count": "2",
+    "defender_spawn_location": "offices",
+    "objective_room_location": "story1_records",
+    "rooftop_access": "ladder_hatch",
+    "stair_placement": "single_west"
+   },
+   "validation_report_path": "deli_counter/build/clinic_a02.validation.json",
+   "visual_quality_score": null,
+   "visual_tags": {
+    "architectural_theme": "delco_medical_office",
+    "material_package": "stucco_panel",
+    "signage_package": "painted",
+    "wear_state": "renovated"
+   },
+   "zoo_theme": "center_city"
+  },
+  {
+   "building_family": "CREDIT_UNION",
+   "combat_audit_path": "deli_counter/build/credit_union_a01.combat_audit.json",
+   "configuration_id": "BLD_CREDIT_UNION_A01",
+   "coordinate_validation": "pass",
+   "evidence": {
+    "engine_gates": "Phase 2 batches: nav_gate + godot_import PASS (Godot 4.7, 27/27)"
+   },
+   "gameplay_path": "deli_counter/build/credit_union_a01.gameplay.json",
+   "gameplay_profile": "pvp_heist",
+   "glb_path": "deli_counter/build/credit_union_a01.glb",
+   "manifest_path": "deli_counter/build/credit_union_a01.manifest.json",
+   "missions": [],
+   "navigation_report_path": "deli_counter/build/credit_union_a01.navigation.json",
+   "navigation_validation": "pass",
+   "open_issues": [],
+   "roundtrip_report_path": "deli_counter/build/credit_union_a01.roundtrip.json",
+   "runtime_walktest": "pass",
+   "seed": 2501,
+   "slots_path": "deli_counter/build/credit_union_a01.slots.json",
+   "spec_path": "deli_counter/specs/credit_union_a01.json",
+   "status": "candidate",
+   "structural_validation": "pass",
+   "tactical_tags": {
+    "attacker_entrance_count": "2",
+    "defender_spawn_location": "vault_room",
+    "objective_room_location": "vault_basement",
+    "stair_placement": "twin_basement"
+   },
+   "validation_report_path": "deli_counter/build/credit_union_a01.validation.json",
+   "visual_quality_score": null,
+   "visual_tags": {
+    "architectural_theme": "delco_credit_union",
+    "material_package": "brick_storefront",
+    "signage_package": "painted",
+    "wear_state": "worn"
+   },
+   "zoo_theme": "delco"
+  },
+  {
+   "building_family": "CREDIT_UNION",
+   "combat_audit_path": "deli_counter/build/credit_union_a02.combat_audit.json",
+   "configuration_id": "BLD_CREDIT_UNION_A02",
+   "coordinate_validation": "pass",
+   "evidence": {
+    "engine_gates": "Phase 2 batches: nav_gate + godot_import PASS (Godot 4.7, 27/27)"
+   },
+   "gameplay_path": "deli_counter/build/credit_union_a02.gameplay.json",
+   "gameplay_profile": "pvp_heist",
+   "glb_path": "deli_counter/build/credit_union_a02.glb",
+   "manifest_path": "deli_counter/build/credit_union_a02.manifest.json",
+   "missions": [],
+   "navigation_report_path": "deli_counter/build/credit_union_a02.navigation.json",
+   "navigation_validation": "pass",
+   "open_issues": [],
+   "roundtrip_report_path": "deli_counter/build/credit_union_a02.roundtrip.json",
+   "runtime_walktest": "pass",
+   "seed": 2502,
+   "slots_path": "deli_counter/build/credit_union_a02.slots.json",
+   "spec_path": "deli_counter/specs/credit_union_a02.json",
+   "status": "candidate",
+   "structural_validation": "pass",
+   "tactical_tags": {
+    "attacker_entrance_count": "3",
+    "defender_spawn_location": "upper_hall",
+    "objective_room_location": "story1_records",
+    "rooftop_access": "ladder_hatch",
+    "stair_placement": "single_west"
+   },
+   "validation_report_path": "deli_counter/build/credit_union_a02.validation.json",
+   "visual_quality_score": null,
+   "visual_tags": {
+    "architectural_theme": "delco_cu_modern",
+    "material_package": "curtain_glass",
+    "signage_package": "backlit",
+    "wear_state": "renovated"
+   },
+   "zoo_theme": "center_city"
+  },
+  {
+   "building_family": "CREDIT_UNION",
+   "combat_audit_path": "deli_counter/build/credit_union_a03.combat_audit.json",
+   "configuration_id": "BLD_CREDIT_UNION_A03",
+   "coordinate_validation": "pass",
+   "evidence": {
+    "engine_gates": "Phase 2 batches: nav_gate + godot_import PASS (Godot 4.7, 27/27)"
+   },
+   "gameplay_path": "deli_counter/build/credit_union_a03.gameplay.json",
+   "gameplay_profile": "pvp_heist",
+   "glb_path": "deli_counter/build/credit_union_a03.glb",
+   "manifest_path": "deli_counter/build/credit_union_a03.manifest.json",
+   "missions": [],
+   "navigation_report_path": "deli_counter/build/credit_union_a03.navigation.json",
+   "navigation_validation": "pass",
+   "open_issues": [],
+   "roundtrip_report_path": "deli_counter/build/credit_union_a03.roundtrip.json",
+   "runtime_walktest": "pass",
+   "seed": 2503,
+   "slots_path": "deli_counter/build/credit_union_a03.slots.json",
+   "spec_path": "deli_counter/specs/credit_union_a03.json",
+   "status": "candidate",
+   "structural_validation": "pass",
+   "tactical_tags": {
+    "attacker_entrance_count": "3",
+    "defender_spawn_location": "teller_line",
+    "objective_room_location": "vault_basement",
+    "service_entrance_placement": "drive_thru_east",
+    "stair_placement": "twin_west"
+   },
+   "validation_report_path": "deli_counter/build/credit_union_a03.validation.json",
+   "visual_quality_score": null,
+   "visual_tags": {
+    "architectural_theme": "delco_cu_drive_thru",
+    "material_package": "precast_panel",
+    "signage_package": "led",
+    "wear_state": "maintained"
    },
    "zoo_theme": "delco"
   },
@@ -270,6 +670,343 @@
    "zoo_theme": "delco"
   },
   {
+   "building_family": "DEPOT",
+   "combat_audit_path": "deli_counter/build/depot_a01.combat_audit.json",
+   "configuration_id": "BLD_DEPOT_A01",
+   "coordinate_validation": "pass",
+   "evidence": {
+    "engine_gates": "Phase 2 batches: nav_gate + godot_import PASS (Godot 4.7, 27/27)"
+   },
+   "gameplay_path": "deli_counter/build/depot_a01.gameplay.json",
+   "gameplay_profile": "pvp_heist",
+   "glb_path": "deli_counter/build/depot_a01.glb",
+   "manifest_path": "deli_counter/build/depot_a01.manifest.json",
+   "missions": [
+    "MSN_WAREHOUSE_DISTRICT_01"
+   ],
+   "navigation_report_path": "deli_counter/build/depot_a01.navigation.json",
+   "navigation_validation": "pass",
+   "open_issues": [],
+   "roundtrip_report_path": "deli_counter/build/depot_a01.roundtrip.json",
+   "runtime_walktest": "pass",
+   "seed": 2901,
+   "slots_path": "deli_counter/build/depot_a01.slots.json",
+   "spec_path": "deli_counter/specs/depot_a01.json",
+   "status": "candidate",
+   "structural_validation": "pass",
+   "tactical_tags": {
+    "attacker_entrance_count": "4",
+    "defender_spawn_location": "parcel_hall",
+    "objective_room_location": "ground_dispatch",
+    "service_entrance_placement": "drive_through_lanes"
+   },
+   "validation_report_path": "deli_counter/build/depot_a01.validation.json",
+   "visual_quality_score": null,
+   "visual_tags": {
+    "architectural_theme": "delco_parcel_depot",
+    "material_package": "corrugated_steel",
+    "signage_package": "painted_wayfinding",
+    "wear_state": "worn"
+   },
+   "zoo_theme": "industrial_flats"
+  },
+  {
+   "building_family": "DEPOT",
+   "combat_audit_path": "deli_counter/build/depot_a02.combat_audit.json",
+   "configuration_id": "BLD_DEPOT_A02",
+   "coordinate_validation": "pass",
+   "evidence": {
+    "engine_gates": "Phase 2 batches: nav_gate + godot_import PASS (Godot 4.7, 27/27)"
+   },
+   "gameplay_path": "deli_counter/build/depot_a02.gameplay.json",
+   "gameplay_profile": "pvp_heist",
+   "glb_path": "deli_counter/build/depot_a02.glb",
+   "manifest_path": "deli_counter/build/depot_a02.manifest.json",
+   "missions": [],
+   "navigation_report_path": "deli_counter/build/depot_a02.navigation.json",
+   "navigation_validation": "pass",
+   "open_issues": [],
+   "roundtrip_report_path": "deli_counter/build/depot_a02.roundtrip.json",
+   "runtime_walktest": "pass",
+   "seed": 2902,
+   "slots_path": "deli_counter/build/depot_a02.slots.json",
+   "spec_path": "deli_counter/specs/depot_a02.json",
+   "status": "candidate",
+   "structural_validation": "pass",
+   "tactical_tags": {
+    "attacker_entrance_count": "3",
+    "defender_spawn_location": "bond_hall",
+    "objective_room_location": "basement_bonded_cage",
+    "rooftop_access": "ladder_hatch",
+    "stair_placement": "twin_west"
+   },
+   "validation_report_path": "deli_counter/build/depot_a02.validation.json",
+   "visual_quality_score": null,
+   "visual_tags": {
+    "architectural_theme": "delco_bonded_depot",
+    "material_package": "insulated_panel",
+    "signage_package": "led_wayfinding",
+    "wear_state": "maintained"
+   },
+   "zoo_theme": "industrial_flats"
+  },
+  {
+   "building_family": "GAS_STATION",
+   "combat_audit_path": "deli_counter/build/gas_station_a01.combat_audit.json",
+   "configuration_id": "BLD_GAS_STATION_A01",
+   "coordinate_validation": "pass",
+   "evidence": {
+    "engine_gates": "Phase 2 batches: nav_gate + godot_import PASS (Godot 4.7, 27/27)"
+   },
+   "gameplay_path": "deli_counter/build/gas_station_a01.gameplay.json",
+   "gameplay_profile": "pvp_heist",
+   "glb_path": "deli_counter/build/gas_station_a01.glb",
+   "manifest_path": "deli_counter/build/gas_station_a01.manifest.json",
+   "missions": [
+    "MSN_STRIP_MALL_01"
+   ],
+   "navigation_report_path": "deli_counter/build/gas_station_a01.navigation.json",
+   "navigation_validation": "pass",
+   "open_issues": [
+    "building-level nav shows forecourt pad as separate island (no exterior ground at building scale); connected at site scale (strip_mall walktest PASS)"
+   ],
+   "roundtrip_report_path": "deli_counter/build/gas_station_a01.roundtrip.json",
+   "runtime_walktest": "pass",
+   "seed": 3101,
+   "slate_missions": [
+    "Wawa (Flappahs)"
+   ],
+   "slots_path": "deli_counter/build/gas_station_a01.slots.json",
+   "spec_path": "deli_counter/specs/gas_station_a01.json",
+   "status": "candidate",
+   "structural_validation": "pass",
+   "tactical_tags": {
+    "attacker_entrance_count": "6",
+    "defender_spawn_location": "stockroom",
+    "objective_room_location": "ground_back_office",
+    "service_entrance_placement": "roll_door_north"
+   },
+   "validation_report_path": "deli_counter/build/gas_station_a01.validation.json",
+   "visual_quality_score": null,
+   "visual_tags": {
+    "architectural_theme": "delco_super_convenience",
+    "material_package": "brick_canopy",
+    "signage_package": "backlit",
+    "wear_state": "maintained"
+   },
+   "zoo_theme": "delco"
+  },
+  {
+   "building_family": "GAS_STATION",
+   "combat_audit_path": "deli_counter/build/gas_station_a02.combat_audit.json",
+   "configuration_id": "BLD_GAS_STATION_A02",
+   "coordinate_validation": "pass",
+   "evidence": {
+    "engine_gates": "Phase 2 batches: nav_gate + godot_import PASS (Godot 4.7, 27/27)"
+   },
+   "gameplay_path": "deli_counter/build/gas_station_a02.gameplay.json",
+   "gameplay_profile": "pvp_heist",
+   "glb_path": "deli_counter/build/gas_station_a02.glb",
+   "manifest_path": "deli_counter/build/gas_station_a02.manifest.json",
+   "missions": [],
+   "navigation_report_path": "deli_counter/build/gas_station_a02.navigation.json",
+   "navigation_validation": "pass",
+   "open_issues": [],
+   "roundtrip_report_path": "deli_counter/build/gas_station_a02.roundtrip.json",
+   "runtime_walktest": "pass",
+   "seed": 3102,
+   "slate_missions": [
+    "Wawa (Flappahs)"
+   ],
+   "slots_path": "deli_counter/build/gas_station_a02.slots.json",
+   "spec_path": "deli_counter/specs/gas_station_a02.json",
+   "status": "candidate",
+   "structural_validation": "pass",
+   "tactical_tags": {
+    "attacker_entrance_count": "2",
+    "chokepoint_placement": "food_service_line",
+    "defender_spawn_location": "stockroom_west",
+    "objective_room_location": "ground_manager_office"
+   },
+   "validation_report_path": "deli_counter/build/gas_station_a02.validation.json",
+   "visual_quality_score": null,
+   "visual_tags": {
+    "architectural_theme": "delco_fuel_stop",
+    "material_package": "stucco_canopy",
+    "signage_package": "pole_sign",
+    "wear_state": "worn"
+   },
+   "zoo_theme": "delco"
+  },
+  {
+   "building_family": "GAS_STATION",
+   "combat_audit_path": "deli_counter/build/gas_station_a03.combat_audit.json",
+   "configuration_id": "BLD_GAS_STATION_A03",
+   "coordinate_validation": "pass",
+   "evidence": {
+    "engine_gates": "Phase 2 batches: nav_gate + godot_import PASS (Godot 4.7, 27/27)"
+   },
+   "gameplay_path": "deli_counter/build/gas_station_a03.gameplay.json",
+   "gameplay_profile": "pvp_heist",
+   "glb_path": "deli_counter/build/gas_station_a03.glb",
+   "manifest_path": "deli_counter/build/gas_station_a03.manifest.json",
+   "missions": [],
+   "navigation_report_path": "deli_counter/build/gas_station_a03.navigation.json",
+   "navigation_validation": "pass",
+   "open_issues": [],
+   "roundtrip_report_path": "deli_counter/build/gas_station_a03.roundtrip.json",
+   "runtime_walktest": "pass",
+   "seed": 3103,
+   "slate_missions": [
+    "Wawa (Flappahs)"
+   ],
+   "slots_path": "deli_counter/build/gas_station_a03.slots.json",
+   "spec_path": "deli_counter/specs/gas_station_a03.json",
+   "status": "candidate",
+   "structural_validation": "pass",
+   "tactical_tags": {
+    "attacker_entrance_count": "3",
+    "chokepoint_placement": "back_hall",
+    "defender_spawn_location": "stockroom",
+    "objective_room_location": "ground_walkin_cooler"
+   },
+   "validation_report_path": "deli_counter/build/gas_station_a03.validation.json",
+   "visual_quality_score": null,
+   "visual_tags": {
+    "architectural_theme": "delco_corner_bodega_gas",
+    "material_package": "cmu_painted",
+    "signage_package": "neon",
+    "wear_state": "worn"
+   },
+   "zoo_theme": "delco"
+  },
+  {
+   "building_family": "LARGE_WAREHOUSE",
+   "combat_audit_path": "deli_counter/build/large_warehouse_a01.combat_audit.json",
+   "configuration_id": "BLD_LARGE_WAREHOUSE_A01",
+   "coordinate_validation": "pass",
+   "evidence": {
+    "engine_gates": "Phase 2 batches: nav_gate + godot_import PASS (Godot 4.7, 27/27)"
+   },
+   "gameplay_path": "deli_counter/build/large_warehouse_a01.gameplay.json",
+   "gameplay_profile": "pvp_heist",
+   "glb_path": "deli_counter/build/large_warehouse_a01.glb",
+   "manifest_path": "deli_counter/build/large_warehouse_a01.manifest.json",
+   "missions": [],
+   "navigation_report_path": "deli_counter/build/large_warehouse_a01.navigation.json",
+   "navigation_validation": "pass",
+   "open_issues": [],
+   "roundtrip_report_path": "deli_counter/build/large_warehouse_a01.roundtrip.json",
+   "runtime_walktest": "pass",
+   "seed": 2801,
+   "slots_path": "deli_counter/build/large_warehouse_a01.slots.json",
+   "spec_path": "deli_counter/specs/large_warehouse_a01.json",
+   "status": "candidate",
+   "structural_validation": "pass",
+   "tactical_tags": {
+    "attacker_entrance_count": "4",
+    "cover_arrangement": "high_racks",
+    "defender_spawn_location": "north_hall",
+    "objective_room_location": "ground_cage",
+    "rooftop_access": "ladder_hatch"
+   },
+   "validation_report_path": "deli_counter/build/large_warehouse_a01.validation.json",
+   "visual_quality_score": null,
+   "visual_tags": {
+    "architectural_theme": "delco_bigbox",
+    "exterior_dressing_package": "triple_dock",
+    "material_package": "corrugated_steel",
+    "wear_state": "worn"
+   },
+   "zoo_theme": "industrial_flats"
+  },
+  {
+   "building_family": "LARGE_WAREHOUSE",
+   "combat_audit_path": "deli_counter/build/large_warehouse_a02.combat_audit.json",
+   "configuration_id": "BLD_LARGE_WAREHOUSE_A02",
+   "coordinate_validation": "pass",
+   "evidence": {
+    "engine_gates": "Phase 2 batches: nav_gate + godot_import PASS (Godot 4.7, 27/27)"
+   },
+   "gameplay_path": "deli_counter/build/large_warehouse_a02.gameplay.json",
+   "gameplay_profile": "pvp_heist",
+   "glb_path": "deli_counter/build/large_warehouse_a02.glb",
+   "manifest_path": "deli_counter/build/large_warehouse_a02.manifest.json",
+   "missions": [],
+   "navigation_report_path": "deli_counter/build/large_warehouse_a02.navigation.json",
+   "navigation_validation": "pass",
+   "open_issues": [],
+   "roundtrip_report_path": "deli_counter/build/large_warehouse_a02.roundtrip.json",
+   "runtime_walktest": "pass",
+   "seed": 2802,
+   "slots_path": "deli_counter/build/large_warehouse_a02.slots.json",
+   "spec_path": "deli_counter/specs/large_warehouse_a02.json",
+   "status": "candidate",
+   "structural_validation": "pass",
+   "tactical_tags": {
+    "attacker_entrance_count": "4",
+    "defender_spawn_location": "mezz_walk",
+    "objective_room_location": "mezzanine_control",
+    "rooftop_access": "ladder_hatch",
+    "stair_placement": "single_west"
+   },
+   "validation_report_path": "deli_counter/build/large_warehouse_a02.validation.json",
+   "visual_quality_score": null,
+   "visual_tags": {
+    "architectural_theme": "delco_logistics",
+    "exterior_dressing_package": "clerestory_band",
+    "material_package": "insulated_panel",
+    "wear_state": "maintained"
+   },
+   "zoo_theme": "industrial_flats"
+  },
+  {
+   "building_family": "LARGE_WAREHOUSE",
+   "combat_audit_path": "deli_counter/build/large_warehouse_a03.combat_audit.json",
+   "configuration_id": "BLD_LARGE_WAREHOUSE_A03",
+   "coordinate_validation": "pass",
+   "evidence": {
+    "engine_gates": "Phase 2 batches: nav_gate + godot_import PASS (Godot 4.7, 27/27)"
+   },
+   "gameplay_path": "deli_counter/build/large_warehouse_a03.gameplay.json",
+   "gameplay_profile": "pvp_heist",
+   "glb_path": "deli_counter/build/large_warehouse_a03.glb",
+   "manifest_path": "deli_counter/build/large_warehouse_a03.manifest.json",
+   "missions": [
+    "MSN_WAREHOUSE_DISTRICT_01"
+   ],
+   "navigation_report_path": "deli_counter/build/large_warehouse_a03.navigation.json",
+   "navigation_validation": "pass",
+   "open_issues": [],
+   "roundtrip_report_path": "deli_counter/build/large_warehouse_a03.roundtrip.json",
+   "runtime_walktest": "pass",
+   "seed": 2803,
+   "slate_missions": [
+    "Warehouse District hero anchor",
+    "Delaware River Shipping Port (chassis)"
+   ],
+   "slots_path": "deli_counter/build/large_warehouse_a03.slots.json",
+   "spec_path": "deli_counter/specs/large_warehouse_a03.json",
+   "status": "candidate",
+   "structural_validation": "pass",
+   "tactical_tags": {
+    "attacker_entrance_count": "5",
+    "defender_spawn_location": "archive_hall",
+    "objective_room_location": "basement_bonded_archive",
+    "rooftop_access": "ladder_hatch",
+    "stair_placement": "triple_split"
+   },
+   "validation_report_path": "deli_counter/build/large_warehouse_a03.validation.json",
+   "visual_quality_score": null,
+   "visual_tags": {
+    "architectural_theme": "delco_bonded_freight",
+    "exterior_dressing_package": "gantry_canopy",
+    "material_package": "precast_panel",
+    "wear_state": "pristine"
+   },
+   "zoo_theme": "industrial_flats"
+  },
+  {
    "building_family": "PARKING_GARAGE",
    "combat_audit_path": "deli_counter/build/parking_garage_a01.combat_audit.json",
    "configuration_id": "BLD_PARKING_GARAGE_A01",
@@ -351,6 +1088,171 @@
     "signage_package": "led_wayfinding",
     "wear_state": "maintained"
    },
+   "zoo_theme": "industrial_flats"
+  },
+  {
+   "building_family": "PAWN_SHOP",
+   "combat_audit_path": "deli_counter/build/pawn_shop_a01.combat_audit.json",
+   "configuration_id": "BLD_PAWN_SHOP_A01",
+   "coordinate_validation": "pass",
+   "evidence": {
+    "engine_gates": "Phase 2 batches: nav_gate + godot_import PASS (Godot 4.7, 27/27)"
+   },
+   "gameplay_path": "deli_counter/build/pawn_shop_a01.gameplay.json",
+   "gameplay_profile": "pvp_heist",
+   "glb_path": "deli_counter/build/pawn_shop_a01.glb",
+   "manifest_path": "deli_counter/build/pawn_shop_a01.manifest.json",
+   "missions": [
+    "MSN_WALKUP_SIEGE_01"
+   ],
+   "navigation_report_path": "deli_counter/build/pawn_shop_a01.navigation.json",
+   "navigation_validation": "pass",
+   "open_issues": [],
+   "roundtrip_report_path": "deli_counter/build/pawn_shop_a01.roundtrip.json",
+   "runtime_walktest": "pass",
+   "seed": 3301,
+   "slots_path": "deli_counter/build/pawn_shop_a01.slots.json",
+   "spec_path": "deli_counter/specs/pawn_shop_a01.json",
+   "status": "candidate",
+   "structural_validation": "pass",
+   "tactical_tags": {
+    "attacker_entrance_count": "3",
+    "defender_spawn_location": "upper_storage",
+    "objective_room_location": "ground_safe_room"
+   },
+   "validation_report_path": "deli_counter/build/pawn_shop_a01.validation.json",
+   "visual_quality_score": null,
+   "visual_tags": {
+    "architectural_theme": "delco_pawn",
+    "material_package": "brick_rollgate",
+    "signage_package": "neon",
+    "wear_state": "worn"
+   },
+   "zoo_theme": "delco"
+  },
+  {
+   "building_family": "PAWN_SHOP",
+   "combat_audit_path": "deli_counter/build/pawn_shop_a02.combat_audit.json",
+   "configuration_id": "BLD_PAWN_SHOP_A02",
+   "coordinate_validation": "pass",
+   "evidence": {
+    "engine_gates": "Phase 2 batches: nav_gate + godot_import PASS (Godot 4.7, 27/27)"
+   },
+   "gameplay_path": "deli_counter/build/pawn_shop_a02.gameplay.json",
+   "gameplay_profile": "pvp_heist",
+   "glb_path": "deli_counter/build/pawn_shop_a02.glb",
+   "manifest_path": "deli_counter/build/pawn_shop_a02.manifest.json",
+   "missions": [],
+   "navigation_report_path": "deli_counter/build/pawn_shop_a02.navigation.json",
+   "navigation_validation": "pass",
+   "open_issues": [],
+   "roundtrip_report_path": "deli_counter/build/pawn_shop_a02.roundtrip.json",
+   "runtime_walktest": "pass",
+   "seed": 3302,
+   "slots_path": "deli_counter/build/pawn_shop_a02.slots.json",
+   "spec_path": "deli_counter/specs/pawn_shop_a02.json",
+   "status": "candidate",
+   "structural_validation": "pass",
+   "tactical_tags": {
+    "attacker_entrance_count": "2",
+    "defender_spawn_location": "upper_flat",
+    "objective_room_location": "story1_lockup",
+    "stair_placement": "single_interior"
+   },
+   "validation_report_path": "deli_counter/build/pawn_shop_a02.validation.json",
+   "visual_quality_score": null,
+   "visual_tags": {
+    "architectural_theme": "delco_pawn_corner",
+    "material_package": "stucco_storefront",
+    "signage_package": "backlit",
+    "wear_state": "maintained"
+   },
+   "zoo_theme": "delco"
+  },
+  {
+   "building_family": "PHARMACY",
+   "combat_audit_path": "deli_counter/build/pharmacy_a01.combat_audit.json",
+   "configuration_id": "BLD_PHARMACY_A01",
+   "coordinate_validation": "pass",
+   "evidence": {
+    "engine_gates": "Phase 2 batches: nav_gate + godot_import PASS (Godot 4.7, 27/27)"
+   },
+   "gameplay_path": "deli_counter/build/pharmacy_a01.gameplay.json",
+   "gameplay_profile": "pvp_heist",
+   "glb_path": "deli_counter/build/pharmacy_a01.glb",
+   "manifest_path": "deli_counter/build/pharmacy_a01.manifest.json",
+   "missions": [
+    "MSN_STRIP_MALL_01"
+   ],
+   "navigation_report_path": "deli_counter/build/pharmacy_a01.navigation.json",
+   "navigation_validation": "pass",
+   "open_issues": [],
+   "roundtrip_report_path": "deli_counter/build/pharmacy_a01.roundtrip.json",
+   "runtime_walktest": "pass",
+   "seed": 2701,
+   "slate_missions": [
+    "Pharmacy (CVS/Walgreens)"
+   ],
+   "slots_path": "deli_counter/build/pharmacy_a01.slots.json",
+   "spec_path": "deli_counter/specs/pharmacy_a01.json",
+   "status": "candidate",
+   "structural_validation": "pass",
+   "tactical_tags": {
+    "attacker_entrance_count": "2",
+    "chokepoint_placement": "gondola_lanes",
+    "defender_spawn_location": "rx_counter",
+    "objective_room_location": "ground_rx_vault"
+   },
+   "validation_report_path": "deli_counter/build/pharmacy_a01.validation.json",
+   "visual_quality_score": null,
+   "visual_tags": {
+    "architectural_theme": "delco_pharmacy",
+    "material_package": "brick_storefront",
+    "signage_package": "backlit",
+    "wear_state": "maintained"
+   },
+   "zoo_theme": "center_city"
+  },
+  {
+   "building_family": "PHARMACY",
+   "combat_audit_path": "deli_counter/build/pharmacy_a02.combat_audit.json",
+   "configuration_id": "BLD_PHARMACY_A02",
+   "coordinate_validation": "pass",
+   "evidence": {
+    "engine_gates": "Phase 2 batches: nav_gate + godot_import PASS (Godot 4.7, 27/27)"
+   },
+   "gameplay_path": "deli_counter/build/pharmacy_a02.gameplay.json",
+   "gameplay_profile": "pvp_heist",
+   "glb_path": "deli_counter/build/pharmacy_a02.glb",
+   "manifest_path": "deli_counter/build/pharmacy_a02.manifest.json",
+   "missions": [],
+   "navigation_report_path": "deli_counter/build/pharmacy_a02.navigation.json",
+   "navigation_validation": "pass",
+   "open_issues": [],
+   "roundtrip_report_path": "deli_counter/build/pharmacy_a02.roundtrip.json",
+   "runtime_walktest": "pass",
+   "seed": 2702,
+   "slate_missions": [
+    "Pharmacy (CVS/Walgreens)"
+   ],
+   "slots_path": "deli_counter/build/pharmacy_a02.slots.json",
+   "spec_path": "deli_counter/specs/pharmacy_a02.json",
+   "status": "candidate",
+   "structural_validation": "pass",
+   "tactical_tags": {
+    "attacker_entrance_count": "3",
+    "defender_spawn_location": "stock_hall",
+    "objective_room_location": "basement_schedule_vault",
+    "stair_placement": "twin_split"
+   },
+   "validation_report_path": "deli_counter/build/pharmacy_a02.validation.json",
+   "visual_quality_score": null,
+   "visual_tags": {
+    "architectural_theme": "delco_pharmacy_24h",
+    "material_package": "stucco_roll_gate",
+    "signage_package": "led",
+    "wear_state": "worn"
+   },
    "zoo_theme": "delco"
   },
   {
@@ -389,6 +1291,267 @@
    "visual_tags": {
     "architectural_theme": "delco_civic",
     "wear_state": "maintained"
+   },
+   "zoo_theme": "delco"
+  },
+  {
+   "building_family": "POLICE_STATION",
+   "combat_audit_path": "deli_counter/build/pvp_station_ref.combat_audit.json",
+   "configuration_id": "BLD_POLICE_STATION_A02",
+   "coordinate_validation": "pass",
+   "evidence": {
+    "godot_import": "Phase 0 import gate PASS",
+    "nav_gate": "Phase 0 engine leg: nav_gate PASS 207 polys, stair ok, 2/2 markers (Godot 4.7)"
+   },
+   "gameplay_path": "deli_counter/build/pvp_station_ref.gameplay.json",
+   "gameplay_profile": "pvp_heist",
+   "glb_path": "deli_counter/build/pvp_station_ref.glb",
+   "manifest_path": "deli_counter/build/pvp_station_ref.manifest.json",
+   "missions": [],
+   "navigation_report_path": "deli_counter/build/pvp_station_ref.navigation.json",
+   "navigation_validation": "pass",
+   "open_issues": [],
+   "roundtrip_report_path": "deli_counter/build/pvp_station_ref.roundtrip.json",
+   "runtime_walktest": "pass",
+   "seed": 1977,
+   "slots_path": "deli_counter/build/pvp_station_ref.slots.json",
+   "spec_path": "deli_counter/specs/pvp_station_ref.json",
+   "status": "candidate",
+   "structural_validation": "pass",
+   "tactical_tags": {
+    "attacker_entrance_count": "4",
+    "breach_point_placement": "north_soft",
+    "defender_spawn_location": "armory",
+    "objective_room_location": "story1_armory",
+    "rooftop_access": "ladder_hatch"
+   },
+   "validation_report_path": "deli_counter/build/pvp_station_ref.validation.json",
+   "visual_quality_score": null,
+   "visual_tags": {
+    "architectural_theme": "delco_civic",
+    "material_package": "concrete_glass",
+    "wear_state": "maintained",
+    "window_family": "storefront_glass"
+   },
+   "zoo_theme": "delco"
+  },
+  {
+   "building_family": "STRIP_RETAIL",
+   "combat_audit_path": "deli_counter/build/strip_retail_a01.combat_audit.json",
+   "configuration_id": "BLD_STRIP_RETAIL_A01",
+   "coordinate_validation": "pass",
+   "evidence": {
+    "engine_gates": "Phase 2 batches: nav_gate + godot_import PASS (Godot 4.7, 27/27)"
+   },
+   "gameplay_path": "deli_counter/build/strip_retail_a01.gameplay.json",
+   "gameplay_profile": "pvp_heist",
+   "glb_path": "deli_counter/build/strip_retail_a01.glb",
+   "manifest_path": "deli_counter/build/strip_retail_a01.manifest.json",
+   "missions": [],
+   "navigation_report_path": "deli_counter/build/strip_retail_a01.navigation.json",
+   "navigation_validation": "pass",
+   "open_issues": [],
+   "roundtrip_report_path": "deli_counter/build/strip_retail_a01.roundtrip.json",
+   "runtime_walktest": "pass",
+   "seed": 3401,
+   "slate_missions": [
+    "Cheesesteak Shop (Angelos)"
+   ],
+   "slots_path": "deli_counter/build/strip_retail_a01.slots.json",
+   "spec_path": "deli_counter/specs/strip_retail_a01.json",
+   "status": "candidate",
+   "structural_validation": "pass",
+   "tactical_tags": {
+    "attacker_entrance_count": "3",
+    "basement_access": "cellar_stash",
+    "defender_spawn_location": "social_club",
+    "objective_room_location": "story1_count_room",
+    "stair_placement": "twin_split"
+   },
+   "validation_report_path": "deli_counter/build/strip_retail_a01.validation.json",
+   "visual_quality_score": null,
+   "visual_tags": {
+    "architectural_theme": "delco_cheesesteak_shop",
+    "material_package": "brick_awning",
+    "signage_package": "neon",
+    "wear_state": "worn"
+   },
+   "zoo_theme": "delco"
+  },
+  {
+   "building_family": "STRIP_RETAIL",
+   "combat_audit_path": "deli_counter/build/strip_retail_a02.combat_audit.json",
+   "configuration_id": "BLD_STRIP_RETAIL_A02",
+   "coordinate_validation": "pass",
+   "evidence": {
+    "engine_gates": "Phase 2 batches: nav_gate + godot_import PASS (Godot 4.7, 27/27)"
+   },
+   "gameplay_path": "deli_counter/build/strip_retail_a02.gameplay.json",
+   "gameplay_profile": "pvp_heist",
+   "glb_path": "deli_counter/build/strip_retail_a02.glb",
+   "manifest_path": "deli_counter/build/strip_retail_a02.manifest.json",
+   "missions": [
+    "MSN_STRIP_MALL_01"
+   ],
+   "navigation_report_path": "deli_counter/build/strip_retail_a02.navigation.json",
+   "navigation_validation": "pass",
+   "open_issues": [],
+   "roundtrip_report_path": "deli_counter/build/strip_retail_a02.roundtrip.json",
+   "runtime_walktest": "pass",
+   "seed": 3402,
+   "slate_missions": [
+    "Jewelers Row"
+   ],
+   "slots_path": "deli_counter/build/strip_retail_a02.slots.json",
+   "spec_path": "deli_counter/specs/strip_retail_a02.json",
+   "status": "candidate",
+   "structural_validation": "pass",
+   "tactical_tags": {
+    "attacker_entrance_count": "2",
+    "cover_arrangement": "display_cases",
+    "defender_spawn_location": "workshop",
+    "objective_room_location": "ground_stone_vault"
+   },
+   "validation_report_path": "deli_counter/build/strip_retail_a02.validation.json",
+   "visual_quality_score": null,
+   "visual_tags": {
+    "architectural_theme": "delco_jeweler",
+    "material_package": "stone_storefront",
+    "signage_package": "gilt",
+    "wear_state": "maintained"
+   },
+   "zoo_theme": "center_city"
+  },
+  {
+   "building_family": "SUPERMARKET",
+   "combat_audit_path": "deli_counter/build/supermarket_a01.combat_audit.json",
+   "configuration_id": "BLD_SUPERMARKET_A01",
+   "coordinate_validation": "pass",
+   "evidence": {
+    "engine_gates": "Phase 2 batches: nav_gate + godot_import PASS (Godot 4.7, 27/27)"
+   },
+   "gameplay_path": "deli_counter/build/supermarket_a01.gameplay.json",
+   "gameplay_profile": "pvp_heist",
+   "glb_path": "deli_counter/build/supermarket_a01.glb",
+   "manifest_path": "deli_counter/build/supermarket_a01.manifest.json",
+   "missions": [],
+   "navigation_report_path": "deli_counter/build/supermarket_a01.navigation.json",
+   "navigation_validation": "pass",
+   "open_issues": [],
+   "roundtrip_report_path": "deli_counter/build/supermarket_a01.roundtrip.json",
+   "runtime_walktest": "pass",
+   "seed": 2601,
+   "slate_missions": [
+    "Italian Market",
+    "Booths Corner",
+    "Reading Terminal (chassis)"
+   ],
+   "slots_path": "deli_counter/build/supermarket_a01.slots.json",
+   "spec_path": "deli_counter/specs/supermarket_a01.json",
+   "status": "candidate",
+   "structural_validation": "pass",
+   "tactical_tags": {
+    "attacker_entrance_count": "4",
+    "chokepoint_placement": "aisle_grid",
+    "defender_spawn_location": "back_stock",
+    "objective_room_location": "ground_cash_office"
+   },
+   "validation_report_path": "deli_counter/build/supermarket_a01.validation.json",
+   "visual_quality_score": null,
+   "visual_tags": {
+    "architectural_theme": "delco_market",
+    "material_package": "cmu_storefront",
+    "signage_package": "fluorescent",
+    "wear_state": "worn"
+   },
+   "zoo_theme": "delco"
+  },
+  {
+   "building_family": "SUPERMARKET",
+   "combat_audit_path": "deli_counter/build/supermarket_a02.combat_audit.json",
+   "configuration_id": "BLD_SUPERMARKET_A02",
+   "coordinate_validation": "pass",
+   "evidence": {
+    "engine_gates": "Phase 2 batches: nav_gate + godot_import PASS (Godot 4.7, 27/27)"
+   },
+   "gameplay_path": "deli_counter/build/supermarket_a02.gameplay.json",
+   "gameplay_profile": "pvp_heist",
+   "glb_path": "deli_counter/build/supermarket_a02.glb",
+   "manifest_path": "deli_counter/build/supermarket_a02.manifest.json",
+   "missions": [],
+   "navigation_report_path": "deli_counter/build/supermarket_a02.navigation.json",
+   "navigation_validation": "pass",
+   "open_issues": [],
+   "roundtrip_report_path": "deli_counter/build/supermarket_a02.roundtrip.json",
+   "runtime_walktest": "pass",
+   "seed": 2602,
+   "slate_missions": [
+    "Italian Market",
+    "Booths Corner"
+   ],
+   "slots_path": "deli_counter/build/supermarket_a02.slots.json",
+   "spec_path": "deli_counter/specs/supermarket_a02.json",
+   "status": "candidate",
+   "structural_validation": "pass",
+   "tactical_tags": {
+    "attacker_entrance_count": "3",
+    "chokepoint_placement": "dock_funnel",
+    "defender_spawn_location": "mezz_hall",
+    "objective_room_location": "mezzanine_manager",
+    "rooftop_access": "ladder_hatch"
+   },
+   "validation_report_path": "deli_counter/build/supermarket_a02.validation.json",
+   "visual_quality_score": null,
+   "visual_tags": {
+    "architectural_theme": "delco_market_modern",
+    "material_package": "insulated_panel",
+    "signage_package": "backlit",
+    "wear_state": "maintained"
+   },
+   "zoo_theme": "center_city"
+  },
+  {
+   "building_family": "SUPERMARKET",
+   "combat_audit_path": "deli_counter/build/supermarket_a03.combat_audit.json",
+   "configuration_id": "BLD_SUPERMARKET_A03",
+   "coordinate_validation": "pass",
+   "evidence": {
+    "engine_gates": "Phase 2 batches: nav_gate + godot_import PASS (Godot 4.7, 27/27)"
+   },
+   "gameplay_path": "deli_counter/build/supermarket_a03.gameplay.json",
+   "gameplay_profile": "pvp_heist",
+   "glb_path": "deli_counter/build/supermarket_a03.glb",
+   "manifest_path": "deli_counter/build/supermarket_a03.manifest.json",
+   "missions": [
+    "MSN_WAREHOUSE_DISTRICT_01"
+   ],
+   "navigation_report_path": "deli_counter/build/supermarket_a03.navigation.json",
+   "navigation_validation": "pass",
+   "open_issues": [],
+   "roundtrip_report_path": "deli_counter/build/supermarket_a03.roundtrip.json",
+   "runtime_walktest": "pass",
+   "seed": 2603,
+   "slate_missions": [
+    "Italian Market"
+   ],
+   "slots_path": "deli_counter/build/supermarket_a03.slots.json",
+   "spec_path": "deli_counter/specs/supermarket_a03.json",
+   "status": "candidate",
+   "structural_validation": "pass",
+   "tactical_tags": {
+    "attacker_entrance_count": "3",
+    "chokepoint_placement": "cellar_gate",
+    "defender_spawn_location": "cellar_west",
+    "objective_room_location": "basement_count_cage",
+    "stair_placement": "twin_west"
+   },
+   "validation_report_path": "deli_counter/build/supermarket_a03.validation.json",
+   "visual_quality_score": null,
+   "visual_tags": {
+    "architectural_theme": "delco_market_night",
+    "material_package": "brick_masonry",
+    "signage_package": "neon",
+    "wear_state": "worn"
    },
    "zoo_theme": "delco"
   },
@@ -432,7 +1595,7 @@
     "material_package": "corrugated_steel",
     "wear_state": "worn"
    },
-   "zoo_theme": "delco"
+   "zoo_theme": "industrial_flats"
   },
   {
    "building_family": "WAREHOUSE",
@@ -475,7 +1638,7 @@
     "material_package": "insulated_panel",
     "wear_state": "maintained"
    },
-   "zoo_theme": "delco"
+   "zoo_theme": "industrial_flats"
   }
  ],
  "registry": "buildings",
