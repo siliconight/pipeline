@@ -1,3 +1,7 @@
 __pycache__/
 *.pyc
 .pytest_cache/
+
+# editor backups from patch_*.py -- copies of tracked files, not history.
+# A RULE, not a list: each patch invents its own suffix.
+*.pre_*

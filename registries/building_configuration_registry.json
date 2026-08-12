@@ -2141,7 +2141,8 @@
    "configuration_id": "BLD_GAS_STATION_A02",
    "coordinate_validation": "pass",
    "evidence": {
-    "engine_gates": "Phase 2 batches: nav_gate + godot_import PASS (Godot 4.7, 27/27)"
+    "engine_gates": "Phase 2 batches: nav_gate + godot_import PASS (Godot 4.7, 27/27)",
+    "guard_rails": "Layout guard-rail remediation (2026-07-21): rear staff exit added (two-exit/two-face rule); re-gated nav+import clean, containing sites walktest+smoke re-verified"
    },
    "gameplay_path": "deli_counter/build/gas_station_a02.gameplay.json",
    "gameplay_profile": "pvp_heist",
@@ -4347,7 +4348,8 @@
    "coordinate_validation": "pass",
    "evidence": {
     "godot_import": "godot_import PASS",
-    "nav_gate": "build/warehouse_a02... nav_gate PASS (Godot 4.7, all stairs ok)"
+    "nav_gate": "build/warehouse_a02... nav_gate PASS (Godot 4.7, all stairs ok)",
+    "guard_rails": "Layout guard-rail remediation (2026-07-21): cage properly enclosed (was open two sides since P1), rooms re-tiled, stair relocated; re-gated nav+import clean, containing sites walktest+smoke re-verified"
    },
    "gameplay_path": "deli_counter/build/warehouse_a02.gameplay.json",
    "gameplay_profile": "pvp_heist",

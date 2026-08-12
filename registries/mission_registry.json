@@ -11,7 +11,8 @@
    "connectivity_validation": "pass",
    "evidence": {
     "offline": "P4: lot.py assembly + site/connectivity/tactical gates clean (sandbox)",
-    "engine_gates": "P4 mission batch: 8/8 walktest (proofs + physical walkers) + 8/8 mp_smoke (4 players), first-pass clean (Godot 4.7)"
+    "engine_gates": "P4 mission batch: 8/8 walktest (proofs + physical walkers) + 8/8 mp_smoke (4 players), first-pass clean (Godot 4.7)",
+    "guard_rails": "Site guard-rail pass (2026-07-21): cover remediation applied; all mission sites re-assembled, walktest + 4-player smoke re-verified green"
    },
    "godot_import": "pass",
    "lot_spec_path": "lot/specs/ballpark_block/ballpark_block_site.json",
@@ -35,7 +36,8 @@
    "connectivity_validation": "pass",
    "evidence": {
     "offline": "P4: lot.py assembly + site/connectivity/tactical gates clean (sandbox)",
-    "engine_gates": "P4 mission batch: 8/8 walktest (proofs + physical walkers) + 8/8 mp_smoke (4 players), first-pass clean (Godot 4.7)"
+    "engine_gates": "P4 mission batch: 8/8 walktest (proofs + physical walkers) + 8/8 mp_smoke (4 players), first-pass clean (Godot 4.7)",
+    "guard_rails": "Site guard-rail pass (2026-07-21): cover remediation applied; all mission sites re-assembled, walktest + 4-player smoke re-verified green"
    },
    "godot_import": "pass",
    "lot_spec_path": "lot/specs/bank_tower_block/bank_tower_block_site.json",
@@ -58,7 +60,8 @@
    ],
    "connectivity_validation": "pass",
    "evidence": {
-    "engine_gates": "P3 mission batch: FULL walktest + mp_smoke PASS (6/6 sites, both heroes physical-walked)"
+    "engine_gates": "P3 mission batch: FULL walktest + mp_smoke PASS (6/6 sites, both heroes physical-walked)",
+    "guard_rails": "Site guard-rail pass (2026-07-21): cover remediation applied; all mission sites re-assembled, walktest + 4-player smoke re-verified green"
    },
    "godot_import": "pass",
    "lot_spec_path": "lot/specs/brewery_block/brewery_block_site.json",
@@ -83,7 +86,8 @@
    "connectivity_validation": "pass",
    "evidence": {
     "multiplayer_smoke_test": "mp_smoke PASS (4 players, all moved >=5m)",
-    "runtime_walktest": "central_vault ALL 18 path proofs PASS (navmesh proven walkable end-to-end); QA physical-walker bot sticks at 1 interior pinch on the 18-stop spine after 4 targets -- accepted on authoritative proofs + mp_smoke per product decision; harness-locomotion backlog"
+    "runtime_walktest": "central_vault ALL 18 path proofs PASS (navmesh proven walkable end-to-end); QA physical-walker bot sticks at 1 interior pinch on the 18-stop spine after 4 targets -- accepted on authoritative proofs + mp_smoke per product decision; harness-locomotion backlog",
+    "guard_rails": "Site guard-rail pass (2026-07-21): cover remediation applied; all mission sites re-assembled, walktest + 4-player smoke re-verified green"
    },
    "godot_import": "pass",
    "lot_spec_path": "lot/specs/central_vault/central_vault_site.json",
@@ -107,7 +111,8 @@
    "connectivity_validation": "pass",
    "evidence": {
     "multiplayer_smoke_test": "mp_smoke PASS (4 players)",
-    "runtime_walktest": "deli_block walktest PASS (15 proofs + physical walkers, sim 133.6s)"
+    "runtime_walktest": "deli_block walktest PASS (15 proofs + physical walkers, sim 133.6s)",
+    "guard_rails": "Site guard-rail pass (2026-07-21): cover remediation applied; all mission sites re-assembled, walktest + 4-player smoke re-verified green"
    },
    "godot_import": "pass",
    "lot_spec_path": "lot/specs/deli_block/deli_block_site.json",
@@ -131,7 +136,8 @@
    "connectivity_validation": "pass",
    "evidence": {
     "offline": "P4: lot.py assembly + site/connectivity/tactical gates clean (sandbox)",
-    "engine_gates": "P4 mission batch: 8/8 walktest (proofs + physical walkers) + 8/8 mp_smoke (4 players), first-pass clean (Godot 4.7)"
+    "engine_gates": "P4 mission batch: 8/8 walktest (proofs + physical walkers) + 8/8 mp_smoke (4 players), first-pass clean (Godot 4.7)",
+    "guard_rails": "Site guard-rail pass (2026-07-21): cover remediation applied; all mission sites re-assembled, walktest + 4-player smoke re-verified green"
    },
    "godot_import": "pass",
    "lot_spec_path": "lot/specs/independence_mall/independence_mall_site.json",
@@ -154,7 +160,8 @@
    ],
    "connectivity_validation": "pass",
    "evidence": {
-    "engine_gates": "P3 mission batch: FULL walktest + mp_smoke PASS (6/6 sites, both heroes physical-walked)"
+    "engine_gates": "P3 mission batch: FULL walktest + mp_smoke PASS (6/6 sites, both heroes physical-walked)",
+    "guard_rails": "Site guard-rail pass (2026-07-21): cover remediation applied; all mission sites re-assembled, walktest + 4-player smoke re-verified green"
    },
    "godot_import": "pass",
    "lot_spec_path": "lot/specs/mainline_mansion/mainline_mansion_site.json",
@@ -177,7 +184,8 @@
    ],
    "connectivity_validation": "pass",
    "evidence": {
-    "engine_gates": "P3 mission batch: FULL walktest + mp_smoke PASS (6/6 sites, both heroes physical-walked)"
+    "engine_gates": "P3 mission batch: FULL walktest + mp_smoke PASS (6/6 sites, both heroes physical-walked)",
+    "guard_rails": "Site guard-rail pass (2026-07-21): cover remediation applied; all mission sites re-assembled, walktest + 4-player smoke re-verified green"
    },
    "godot_import": "pass",
    "lot_spec_path": "lot/specs/museum_row/museum_row_site.json",
@@ -201,7 +209,8 @@
    "connectivity_validation": "pass",
    "evidence": {
     "offline": "P4: lot.py assembly + site/connectivity/tactical gates clean (sandbox)",
-    "engine_gates": "P4 mission batch: 8/8 walktest (proofs + physical walkers) + 8/8 mp_smoke (4 players), first-pass clean (Godot 4.7)"
+    "engine_gates": "P4 mission batch: 8/8 walktest (proofs + physical walkers) + 8/8 mp_smoke (4 players), first-pass clean (Godot 4.7)",
+    "guard_rails": "Site guard-rail pass (2026-07-21): cover remediation applied; all mission sites re-assembled, walktest + 4-player smoke re-verified green"
    },
    "godot_import": "pass",
    "lot_spec_path": "lot/specs/phl_airport/phl_airport_site.json",
@@ -224,7 +233,8 @@
    ],
    "connectivity_validation": "pass",
    "evidence": {
-    "engine_gates": "P3 mission batch: FULL walktest + mp_smoke PASS (6/6 sites, both heroes physical-walked)"
+    "engine_gates": "P3 mission batch: FULL walktest + mp_smoke PASS (6/6 sites, both heroes physical-walked)",
+    "guard_rails": "Site guard-rail pass (2026-07-21): cover remediation applied; all mission sites re-assembled, walktest + 4-player smoke re-verified green"
    },
    "godot_import": "pass",
    "lot_spec_path": "lot/specs/port_row/port_row_site.json",
@@ -248,7 +258,8 @@
    "connectivity_validation": "pass",
    "evidence": {
     "offline": "P4: lot.py assembly + site/connectivity/tactical gates clean (sandbox)",
-    "engine_gates": "P4 mission batch: 8/8 walktest (proofs + physical walkers) + 8/8 mp_smoke (4 players), first-pass clean (Godot 4.7)"
+    "engine_gates": "P4 mission batch: 8/8 walktest (proofs + physical walkers) + 8/8 mp_smoke (4 players), first-pass clean (Godot 4.7)",
+    "guard_rails": "Site guard-rail pass (2026-07-21): cover remediation applied; all mission sites re-assembled, walktest + 4-player smoke re-verified green"
    },
    "godot_import": "pass",
    "lot_spec_path": "lot/specs/reading_terminal/reading_terminal_site.json",
@@ -272,7 +283,8 @@
    "connectivity_validation": "pass",
    "evidence": {
     "offline": "P4: lot.py assembly + site/connectivity/tactical gates clean (sandbox)",
-    "engine_gates": "P4 mission batch: 8/8 walktest (proofs + physical walkers) + 8/8 mp_smoke (4 players), first-pass clean (Godot 4.7)"
+    "engine_gates": "P4 mission batch: 8/8 walktest (proofs + physical walkers) + 8/8 mp_smoke (4 players), first-pass clean (Godot 4.7)",
+    "guard_rails": "Site guard-rail pass (2026-07-21): cover remediation applied; all mission sites re-assembled, walktest + 4-player smoke re-verified green"
    },
    "godot_import": "pass",
    "lot_spec_path": "lot/specs/rivers_casino/rivers_casino_site.json",
@@ -295,7 +307,8 @@
    ],
    "connectivity_validation": "pass",
    "evidence": {
-    "engine_gates": "P3 mission batch: FULL walktest + mp_smoke PASS (6/6 sites, both heroes physical-walked)"
+    "engine_gates": "P3 mission batch: FULL walktest + mp_smoke PASS (6/6 sites, both heroes physical-walked)",
+    "guard_rails": "Site guard-rail pass (2026-07-21): cover remediation applied; all mission sites re-assembled, walktest + 4-player smoke re-verified green"
    },
    "godot_import": "pass",
    "lot_spec_path": "lot/specs/septa_station/septa_station_site.json",
@@ -319,7 +332,8 @@
    "connectivity_validation": "pass",
    "evidence": {
     "offline": "P4: lot.py assembly + site/connectivity/tactical gates clean (sandbox)",
-    "engine_gates": "P4 mission batch: 8/8 walktest (proofs + physical walkers) + 8/8 mp_smoke (4 players), first-pass clean (Godot 4.7)"
+    "engine_gates": "P4 mission batch: 8/8 walktest (proofs + physical walkers) + 8/8 mp_smoke (4 players), first-pass clean (Godot 4.7)",
+    "guard_rails": "Site guard-rail pass (2026-07-21): cover remediation applied; all mission sites re-assembled, walktest + 4-player smoke re-verified green"
    },
    "godot_import": "pass",
    "lot_spec_path": "lot/specs/septa_yard/septa_yard_site.json",
@@ -343,7 +357,8 @@
    "evidence": {
     "godot_import": "deli_counter/build/pvp_station_ref.godot_import.json (Godot 4.7 stable, user hardware)",
     "multiplayer_smoke_test": "_runs/ref_pvp_proj/ref_pvp_site.mp_smoke.json (round 24 PASS, 4 players, all moved >=5m)",
-    "runtime_walktest": "_runs/ref_pvp_proj/ref_pvp_site_navqa.walktest.json (round 22 PASS)"
+    "runtime_walktest": "_runs/ref_pvp_proj/ref_pvp_site_navqa.walktest.json (round 22 PASS)",
+    "guard_rails": "Site guard-rail pass (2026-07-21): cover remediation applied; all mission sites re-assembled, walktest + 4-player smoke re-verified green"
    },
    "godot_import": "pass",
    "lot_spec_path": "lot/specs/ref_pvp/ref_pvp_site.json",
@@ -365,7 +380,8 @@
    ],
    "connectivity_validation": "pass",
    "evidence": {
-    "engine_gates": "P3 mission batch: FULL walktest + mp_smoke PASS (6/6 sites, both heroes physical-walked)"
+    "engine_gates": "P3 mission batch: FULL walktest + mp_smoke PASS (6/6 sites, both heroes physical-walked)",
+    "guard_rails": "Site guard-rail pass (2026-07-21): cover remediation applied; all mission sites re-assembled, walktest + 4-player smoke re-verified green"
    },
    "godot_import": "pass",
    "lot_spec_path": "lot/specs/storage_row/storage_row_site.json",
@@ -388,7 +404,8 @@
    ],
    "connectivity_validation": "pass",
    "evidence": {
-    "engine_gates": "FULL walktest PASS (proofs + physical walkers) + mp_smoke PASS"
+    "engine_gates": "FULL walktest PASS (proofs + physical walkers) + mp_smoke PASS",
+    "guard_rails": "Site guard-rail pass (2026-07-21): cover remediation applied; all mission sites re-assembled, walktest + 4-player smoke re-verified green"
    },
    "godot_import": "pass",
    "lot_spec_path": "lot/specs/strip_mall/strip_mall_site.json",
@@ -411,7 +428,8 @@
    ],
    "connectivity_validation": "pass",
    "evidence": {
-    "engine_gates": "FULL walktest PASS (proofs + physical walkers) + mp_smoke PASS"
+    "engine_gates": "FULL walktest PASS (proofs + physical walkers) + mp_smoke PASS",
+    "guard_rails": "Site guard-rail pass (2026-07-21): cover remediation applied; all mission sites re-assembled, walktest + 4-player smoke re-verified green"
    },
    "godot_import": "pass",
    "lot_spec_path": "lot/specs/walkup_siege/walkup_siege_site.json",
@@ -435,7 +453,8 @@
    "connectivity_validation": "pass",
    "evidence": {
     "engine_gates": "FULL walktest PASS (proofs + physical walkers) + mp_smoke PASS",
-    "runtime_walktest": "hero FULL PASS: 4 players 14/14 targets ~770 m, 202.4 s spine-scaled sim, 12/12 bots; walker floor-angle now matches agent-contract slope"
+    "runtime_walktest": "hero FULL PASS: 4 players 14/14 targets ~770 m, 202.4 s spine-scaled sim, 12/12 bots; walker floor-angle now matches agent-contract slope",
+    "guard_rails": "Site guard-rail pass (2026-07-21): cover remediation applied; all mission sites re-assembled, walktest + 4-player smoke re-verified green"
    },
    "godot_import": "pass",
    "lot_spec_path": "lot/specs/warehouse_district/warehouse_district_site.json",
@@ -459,7 +478,8 @@
    "connectivity_validation": "pass",
    "evidence": {
     "offline": "P4: lot.py assembly + site/connectivity/tactical gates clean (sandbox)",
-    "engine_gates": "P4 mission batch: 8/8 walktest (proofs + physical walkers) + 8/8 mp_smoke (4 players), first-pass clean (Godot 4.7)"
+    "engine_gates": "P4 mission batch: 8/8 walktest (proofs + physical walkers) + 8/8 mp_smoke (4 players), first-pass clean (Godot 4.7)",
+    "guard_rails": "Site guard-rail pass (2026-07-21): cover remediation applied; all mission sites re-assembled, walktest + 4-player smoke re-verified green"
    },
    "godot_import": "pass",
    "lot_spec_path": "lot/specs/xfinity_center/xfinity_center_site.json",
