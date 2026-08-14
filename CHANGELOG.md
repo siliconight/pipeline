@@ -6,6 +6,31 @@ taken from the commit that bumped VERSION, and each names its sha. They do
 not explain why, because nothing on disk says why -- and a made-up rationale
 in the file whose job is to be the record is worse than an admitted gap.
 
+## [v0.6.0] - guard-rail evidence stamped across the mission registry
+
+Every mission in `mission_registry.json` gains a `guard_rails` record in its
+`evidence` block:
+
+    "guard_rails": "Site guard-rail pass (2026-07-21): cover remediation
+    applied; all mission sites re-assembled, walktest + 4-player smoke
+    re-verified green"
+
+The same hunk on every site -- `ballpark_block`, `bank_tower_block`,
+`brewery_block`, `central_vault`, `deli_block`, `independence_mall`,
+`mainline_mansion` and the rest. 60 changed lines in the mission registry.
+
+Also 6 lines in `building_configuration_registry.json` and 4 in `.gitignore`,
+which are named here and not described: this entry was written from the
+mission-registry diff on 2026-08-14, and those two were not read. A guess
+about them would be the kind of thing this file exists to not contain.
+
+WRITTEN FROM THE DIFF BECAUSE THE COMMIT SUBJECT SAYS NOTHING. `7ed8e00` is
+"checkpoint: uncommitted working tree", dated 2026-08-12. On the strength of
+that subject this release was passed over once already, on the reasoning that
+a checkpoint is not a release. It is one; the subject was just wrong about
+its own commit. A registry-wide evidence key is precisely the change this
+tool is for.
+
 ## [v0.5.0] - 2026-07-21
 
 Phase 4 complete. Registries at 100 configs / 36 families / 20 missions /
