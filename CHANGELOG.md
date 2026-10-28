@@ -6,6 +6,10 @@ taken from the commit that bumped VERSION, and each names its sha. They do
 not explain why, because nothing on disk says why -- and a made-up rationale
 in the file whose job is to be the record is worse than an admitted gap.
 
+## [v0.6.1] - the MIT licence travels
+
+The walker's call, 2026-10-26: every factory repo carries MIT. This repo's `LICENSE` was committed that day, after the tag factory 1.41.0 named; factory 1.42.0 packaged that tag and so shipped without it. This release carries it, and changes nothing else.
+
 ## [v0.6.0] - guard-rail evidence stamped across the mission registry
 
 Every mission in `mission_registry.json` gains a `guard_rails` record in its
